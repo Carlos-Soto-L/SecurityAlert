@@ -3,7 +3,7 @@ const { body,validationResult } = require('express-validator');
 
 
 exports.user_login = function(req, res) {
-    res.send('Despliega formulario login');
+    res.render('login', {title: 'Ingresar al sistema' , layout:false})
 };
 
 exports.user_register = [

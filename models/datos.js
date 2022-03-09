@@ -2,17 +2,15 @@ var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
 
 var UserSchema = new Schema({
-    //password: {type: String, required:true},
+    username: {type: Schema.Types.ObjectId, ref: 'User', required: true},
+    password: {type: String, required:true},
     nombreCompleto: {type: String, minlength:8, maxlength:50,required:true},
     curp: {type:String},
-    email: {type:String},
+    email: {type: Schema.Types.ObjectId, ref: 'User', required: true},
     domicilio: {type:String},
+    codigoPostal: {type: String},
     ciudad: {type:String},
     telefono: {type: Number},
-    usuarioConf:[{
-        nombreCompletoConf: {type: String, minlength:8, maxlength:50,required:true},
-        telefonoConfia: {type: Number}
-    }]
 });
 
-module.exports = mongoose.model('User', UserSchema);
+module.exports = mongoose.model('dataUser', UserSchema);
