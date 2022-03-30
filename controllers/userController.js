@@ -16,9 +16,11 @@ exports.user_register = [
         const errors = validationResult(req);
 
         if (!errors.isEmpty()) {
+            console.log('Error al regitrar');
             let data = {
                 title: 'Registro de Usuario',
-                messages: errors.array()
+                messages: errors.array(),
+                layout: false
             };
             res.render('register', data);
             return;
@@ -33,7 +35,7 @@ exports.user_register = [
             user.save(function(error){
                 if (error) { return next(error); }
 
-                let data= {title: 'Ingresar Sistema', message:'Bienvenido ' + req.body.username}
+                let data= {title: 'Ingresar Sistema' + req.body.username}
                 res.render('index', data);
             });
         }
@@ -45,15 +47,46 @@ exports.user_home = function(req, res) {
     res.send('Despliega pantalla de bienvenida');
 };
 
+// exports.user_login_verify = [
+//     body('username','Nesecitas un usuario').trim().isLength({min:8, max:15}).escape(),
+//     body('password','Nesecitas escribir la contraceña').trim().isLength({min:8, max:15}).escape(),
+
+//     (req, res, next) => {
+//         console.log('Ingresando a la validación');
+//         const errors = validationResult(req);
+//         console.log("usuario" + req.body.username)
+//         console.log("contraceña" + req.body.password)
+
+//         if (!errors.isEmpty()) {
+//             console.log('hay errores');
+//             let data = {
+//                 title: 'Ingresando al sistema',
+//                 messages: errors.array(),
+//                 layout: false
+//             };
+//             res.render('login', data);    
+//         } else {
+//             console.log('Bienvenido');
+            
+//             res.render('index');
+
+//         }
+//     }
+
+
+// ];
+
 exports.user_login_verify = function(req, res) {
     let usuario = req.body.username;
     let pass = req.body.password;
+    const errors = validationResult(req);
 
     console.log('Usuario: ' + usuario + " Pass: " + pass);
     
     if (usuario && pass) {
         User.find({'username': usuario, 'password':pass}, function(error, results){
-            if (error) {
+            if (!errors.isEmpty()) {
+                console.log('hay errores');
                 let data = {
                     title: 'Ingresar al Sistema',
                     message: 'Hubo un error contacte a soporte',
@@ -81,20 +114,22 @@ exports.user_login_verify = function(req, res) {
         let data = {
             title: 'Ingresar al Sistema',
             message: 'Usuario o Contraseña vacío',
-            layout:false
+            layout: false,
         }
-        res.render('/', data);
+        res.render('login', data);
     }
 
 
 };
+
+
 
 exports.user_logout = function(req, res) {
     req.session.destroy();
 
     let data = {
         title: 'Ingresar al Sistema',
-        layout:false
+        layout: false
     }
     res.render('login', data);   
 

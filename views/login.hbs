@@ -25,9 +25,9 @@
                   <div class="card-body p-md-5 mx-md-4">
                     <form action="/verify" method="post">
                       <p style="text-align: center;">Welcome to Security Alert</p>
-                      {{#if message}}
-                        <p style="color:red">{{message}}</p>
-                      {{/if}}
+                      {{#each messages}}
+                        <p style="color:red">{{this.msg}}</p>
+                      {{/each}}
                       <div class="form-outline mb-4">
                         <input type="text" id="username" name="username" class="form-control"
                           placeholder="Usuario" />
