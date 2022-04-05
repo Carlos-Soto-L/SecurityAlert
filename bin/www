@@ -8,6 +8,33 @@ var app = require('../app');
 var debug = require('debug')('securityalert:server');
 var http = require('http');
 
+// #########          WEBSOCKET            #############
+const WebSocket = require('ws');
+const WS_PORT  = 8888;
+
+// Creamos nuestro servidor websocket 
+const wsServer = new WebSocket.Server({port: WS_PORT}, ()=> console.log(`WS Server is listening at ${WS_PORT}`));
+
+// Almacena los clientes conectados 
+let connectedClients = [];
+// Al conectarse un cliente nuevo 
+wsServer.on('connection', (ws, req)=>{
+  // imprimira la siguiente leyenda en consola 
+    console.log('Connected');
+    // Agrega el cliente en el arreglo 
+    connectedClients.push(ws);
+// Al recibir un mensaje 
+    ws.on('message', data => {
+      // leera el mesaje, y como es un mensaje en binario es necesario recorrer el bufer 
+        connectedClients.forEach((ws,i)=>{
+            if(ws.readyState === ws.OPEN){
+                ws.send(data);
+            }else{
+                connectedClients.splice(i ,1);
+            }
+        })
+    });
+});
 /**
  * Get port from environment and store in Express.
  */
