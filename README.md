@@ -72,7 +72,7 @@ Organigrama.
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
-Diagrama Gantt.
+Puedes consultar Nuestra planeación desde el siguinte enlace <details><a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/personal/1220100361_alumnos_utng_edu_mx/EbHm5uA3sONLsx6LKbDD1uwBL4ueRtn_7jXb6F5v5CjClQ?e=E7AAdw">Clic aqui</a></details>
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
