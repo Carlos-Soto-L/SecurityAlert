@@ -2,9 +2,6 @@ var Users = require('../models/user');
 const { body,validationResult } = require('express-validator');
 var User = require('../models/datos');
 
-exports.user_home = function(req, res) {
-    res.render('login', {title: 'Home' , layout:false})
-};
 
 exports.user_login_verify = [
     body('username','Usuario es requerido').trim().isLength({min:8, max:15}).escape(),

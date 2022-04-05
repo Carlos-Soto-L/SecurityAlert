@@ -13,6 +13,7 @@ router.get('/logout', controller.user_logout);
 router.post('/addUser', controller.user_register); 
 router.get('/data', data.user_data);
 router.post('/addDatos', data.data_register);
+router.post('/inicio', controller.user_inicio);
 
 router.get('/register', function(req, res, next){
   let data = {

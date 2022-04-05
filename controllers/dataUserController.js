@@ -8,6 +8,7 @@ exports.user_data = function(req, res) {
 
 
 exports.data_register = [
+    body('username','Usuario es requerido').trim().isString().escape(),
     body('nombre', 'Nombre es requerido').trim().isString().escape(),
     body('ape', 'Apellido es requerido').trim().isString().escape(),
     body('calle','Calle es requerida').trim().isString().escape(), 
@@ -30,6 +31,7 @@ exports.data_register = [
         } else {
             console.log('Registrando datos');
             let user = new User({
+                username: req.body.username,
                 nombre: req.body.nombre,
                 ape: req.body.ape,
                 calle: req.body.calle,

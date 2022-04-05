@@ -10,6 +10,16 @@
   /*background: linear-gradient(to right,#a790e7, #9871f3, #4533e9, #0e0beb);*/
 }
 
+body{
+  background-color: rgb(65, 62,62)
+}
+
+.registro{
+  text-align: center; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', Verdana, sans-serif; 
+  font-size: x-large;
+}
+
 @media (min-width: 768px) {
   .gradient-form {
     height: 100vh !important;
@@ -20,4 +30,8 @@
     border-top-right-radius: .3rem;
     border-bottom-right-radius: .3rem;
   }
+}
+
+#imagen{
+  padding-right: 50rem;
 }

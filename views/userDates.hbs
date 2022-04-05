@@ -16,47 +16,50 @@
     </div>
 
     <div class="container" style="margin-top: 4rem;">
-      <form action="/addDatos"  method="post" class="row g-3">
-      <p style="text-align: center; color: white; font-size: large">Registro de datos</p>
-      {{#each messages}}
-                    <p style="color:red">{{this.msg}}</p>
-                    {{/each}}
-        <div class="col-6">
-          <label for="nombre" class="form-label" style="color: white;">Nombre
-            </label>
-          <input type="text" class="form-control" id="nombre" name="nombre"
-            placeholder="Nombre completo">
-        </div>
-        <div class="col-6">
-          <label for="ape" class="form-label" style="color: white;">Apellidos</label>
-          <input type="text" class="form-control" name="ape" id="ape"
-            placeholder="Apellidos">
-        </div>
-        <div class="col-md-6">
-          <label for="telefono" class="form-label" style="color: white;">Telefono</label>
-          <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Telefono">
-        </div>
-        <div class="col-6">
-          <label for="calle" class="form-label" style="color: white;">Calle</label>
-          <input type="text" class="form-control" id="calle" name="calle" placeholder="Calle y (#) numero">
-        </div>
-        <div class="col-6">
-          <label for="colonia" class="form-label" style="color: white;">Colonia</label>
-          <input type="text" class="form-control" id="colonia" name="colonia" placeholder="Colonia">
-        </div>
-        <div class="col-6">
-          <label for="ciudad" class="form-label" style="color: white;">Cuidad</label>
-          <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Cuidad">
-        </div>
-        <div class="col-md-2">
-          <label for="codigoPostal" class="form-label" style="color: white;">Codigo
-            Postal</label>
-          <input type="text" class="form-control" id="codigoPostal" name="codigoPostal" placeholder="C.P">
-        </div>
-        <div class="col-12">
-          <button type="button" class="btn btn-dark" onclick="submit();" >Guardar datos</button>
-        </div>
-      </form>
+      
+       <table>
+        <tr>
+            <td></td>
+        </tr>
+        <tr style="background-color: rgb(105, 209, 123); font-weight: bold;">
+            <td>ID</td>
+            <td colspan="2">Nombre Completo</td>
+            <td>Edad</td>
+            <td>Modificar</td>
+            <td>Eliminar </td>
+        </tr>
+        <tr> 
+            <td> {{item.id}} </td>
+            <td colspan="2">{{item.name}}</td>
+            <td>{{item.age}}</td>
+            {{!-- <td><a href="/users/update/<%= item.id %>" id="btn-update">Modificar</a></td>
+            <td><a href="/users/delete/<%= item.id %>" id="btn-delete">Eliminar</a></td> --}}
+
+            <tr>
+                <td colspan="6" style="background-color: rgb(208, 253, 216); font-weight: bold;">Informacion personal</td>
+           </tr>
+           <tr style="background-color: rgb(105, 209, 123); font-weight: bold;">
+                <td>Gmail</td>
+                <td>Curp</td>
+                <td>Telefono</td>
+                <td>Domicilio</td>
+                <td>Ciudad</td>
+                <td>INE</td>
+           </tr>
+          
+    <tr>
+       {{#each users}}
+                <tr>
+                    <td>{{gmail}}</td>
+                    <td>{{telefono}}</td>
+                    <td>{{domicilio}}</td>
+                    <td>{{ciudad}}</td>
+                </tr>
+      {{/each}}
+        </tr>
+ 
+   </table>
+
 
     </div>
 

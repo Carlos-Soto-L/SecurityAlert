@@ -7,9 +7,18 @@ exports.user_login = function(req, res) {
 };
 
 exports.user_register = [
-    body('username','Usuario es requerido').trim().isLength({min:8, max:15}).escape(),
+    body('username','Usuario es requerido').trim().isString().escape(),
     body('email','Email es requerido').trim().isEmail().escape(), 
     body('password','Contraseña es requerida').trim().isLength({min:8, max:15}).escape(),
+    body('nombre', 'Nombre es requerido').trim().isString().escape(),
+    body('ape', 'Apellido es requerido').trim().isString().escape(),
+    body('calle','Calle es requerida').trim().isString().escape(), 
+    body('colonia','Colonia es requerida').trim().isString().escape(), 
+    body('codigoPostal','Cp es requerida').trim().escape(), 
+    body('ciudad','Ciudad es requerida').trim().isString().escape(), 
+    body('telefono','Estado es requerida').trim().escape(), 
+    body('numero','numero de casa es requerido').trim().escape(), 
+    body('numeroint','numero de casa es requerido').trim().escape(), 
 
     (req, res, next) => {
         console.log('Ingresando a la validación');
@@ -29,7 +38,15 @@ exports.user_register = [
             let user = new User({
                 username: req.body.username,
                 password: req.body.password,
-                email: req.body.email
+                email: req.body.email,
+                nombre: req.body.nombre,
+                ape: req.body.ape,
+                calle: req.body.calle,
+                colonia: req.body.colonia,
+                codigoPostal: req.body.codigoPostal,    
+                telefono: req.body.telefono,
+                numero: req.body.numero,
+                numeroint: req.body.numeroint
             });
 
             user.save(function(error){
@@ -75,6 +92,12 @@ exports.user_home = function(req, res) {
 
 
 // ];
+exports.user_inicio = function(req, res) {
+    if (exports.user_login_verify == true) {
+        console.log("Entrando a funcion")
+        res.render()
+    }    
+};
 
 exports.user_login_verify = function(req, res) {
     let usuario = req.body.username;

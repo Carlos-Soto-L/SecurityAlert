@@ -11,14 +11,13 @@
   </head>
   <body>
 
-    <section class="h-100 gradient-form" style="background-color: rgb(65, 62,
-      62);">
+
       <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
           <div class="col-xl-10">
             <div class="card rounded-3 text-black">
 
-              <div class="">
+              <div class="container">
                 <div class="card-body p-md-5 mx-md-4">
 
                   <!-- <div class="text-center">
@@ -26,43 +25,81 @@
                         src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/lotus.webp"
                         style="width: 185px;" alt="logo">
                     </div> -->
-                  <form action="/addUser" method="post">
-                    <p>Registro de Usuario</p>
+                  <form action="/addUser" method="post" class="row g-3">
+                    <p class="registro">Registro de Usuario</p>
                     {{#each messages}}
                     <p style="color:red">{{this.msg}}</p>
                     {{/each}}
-                    <div class="form-outline mb-4">
-                      <input type="text" id="username" name="username"
+
+                    <div class="col-6">
+          <label for="nombre" class="form-label">Nombre
+            </label>
+          <input type="text" class="form-control" id="nombre" name="nombre"
+            placeholder="Nombre completo">
+        </div>
+        <div class="col-6">
+          <label for="ape" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" name="ape" id="ape"
+            placeholder="Apellidos">
+        </div>
+        <div class="col-md-6">
+          <label for="telefono" class="form-label">Telefono</label>
+          <input type="tel" class="form-control" id="telefono" name="telefono" placeholder="Telefono">
+        </div>
+        <div class="col-6">
+          <label for="calle" class="form-label">Calle</label>
+          <input type="text" class="form-control" id="calle" name="calle" placeholder="Calle">
+        </div>
+        <div class="col-6">
+          <label for="numero" class="form-label" >Numero de exterior</label>
+          <input type="text" class="form-control" id="numero" name="numero" placeholder="solo el numero">
+        </div>
+        <div class="col-6">
+          <label for="numeroint" class="form-label" >Numero de interior (opcional)</label>
+          <input type="text" class="form-control" id="numeroint" name="numeroint" placeholder="solo el numero">
+        </div>
+        <div class="col-6">
+          <label for="colonia" class="form-label" >Colonia</label>
+          <input type="text" class="form-control" id="colonia" name="colonia" placeholder="Colonia">
+        </div>
+        <div class="col-6">
+          <label for="ciudad" class="form-label" >Cuidad</label>
+          <input type="text" class="form-control" id="ciudad" name="ciudad" placeholder="Cuidad">
+        </div>
+        <div class="col-6">
+          <label for="codigoPostal" class="form-label" >Codigo
+            Postal</label>
+          <input type="text" class="form-control" id="codigoPostal" name="codigoPostal" placeholder="C.P">
+        </div>
+        <HR></HR>
+        <div class="col-6">
+          <label class="form-label" for="username">Usuario</label>
+          <input type="text" id="username" name="username"
                         class="form-control"
-                        placeholder="Usuario" />
-                      <label class="form-label" for="username">Usuario</label>
-                    </div>
-
-                    <div class="form-outline mb-4">
-                      <input type="text" id="email" name="email"
+                        placeholder="Usuario">
+        </div>
+        <div class="col-6">
+          <label class="form-label" for="email">Correo Electrónico</label>
+          <input type="text" id="email" name="email"
                         class="form-control"
-                        placeholder="Email" />
-                      <label class="form-label" for="email">Correo Electrónico</label>
-                    </div>
-
-                    <div class="form-outline mb-4">
-                      <input type="password" id="password" name="password"
-                        class="form-control" />
-                      <label class="form-label" for="password">Contraseña</label>
-                    </div>
-
+                        placeholder="Email" >
+        </div>
+        <div class="col-6">
+          <label class="form-label" for="password">Contraseña</label>
+          <input type="password" id="password" name="password"
+                        class="form-control">
+        </div>
+                    
                     <div class="text-center pt-1 mb-5 pb-1">
 
-                      <button class="btn btn-dark" type="button"
+                      <button  class="btn btn-dark" type="button"
                         onclick="submit();">Registrar</button>
+                        <p></p>
                       <p><a class="text-muted" href="/logout">iniciar sesion</a></p>
                     </div>
                   </form>
 
                 </div>
-              </div>
-              <div class="col-lg-6 d-flex align-items-center
-                gradient-custom-2">
               </div>
 
             </div>
