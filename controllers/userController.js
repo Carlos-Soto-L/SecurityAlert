@@ -93,10 +93,9 @@ exports.user_home = function(req, res) {
 
 // ];
 exports.user_inicio = function(req, res) {
-    if (exports.user_login_verify == true) {
-        console.log("Entrando a funcion")
-        res.render()
-    }    
+    console.log('Entrando al inicio')    
+    res.render('index') 
+
 };
 
 exports.user_login_verify = function(req, res) {
