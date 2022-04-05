@@ -1,7 +1,5 @@
 # SecurityAlert
 
-# EN ESTA PARTE DEL PROYECTO YA ESTA AJUSTADO EL LOGIN YA SE PUEDE COMENZAR A IMPLEMENTAR LA PARTE DE DE LA CAMARA Y LA PARTE DE EL MENSAJE DE ALERTA.
-
 # Integradora II
 [![Contribuidores][contribuidores-shield]][contributors-url]
 
