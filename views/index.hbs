@@ -1,5 +1,18 @@
+<head>
+    <link rel="stylesheet" href="index.css">
+</head>
+<style>
+    .alert{
+    position: absolute;
+    right: 50px;
+    bottom: 40px;
+    
+}
+</style>
+
+<div>
 <div class="container">
-    <h1 style="text-align: center; color: white;">Bienvenido</h1>
+    <h1 style="text-align: center; margin-top: 2rem;">Transmicion de video vigilancia</h1>
 
                 {{!-- TRANSMICION DE VIDEO VIGILANCIA  --}}
 
@@ -21,4 +34,20 @@
         </script>
 
         {{!-- ########################################### --}}
+
+        
 </div>
+{{!-- class="dropdown-item" href="https://api.whatsapp.com/send?phone=+52 418 132 6979 &text=Alerta solicito apoyo !!! "><img src="../img/alerta.png" width="30" height="30" 
+        class="d-inline-block align-top" alt="" --}}
+
+<form action="/mensaje" method="get">
+    <input class="alert" type="submit" value="Alerta">
+</form>
+
+{{!-- <button class="alert" href="/mensaje" onclick="">ALERTA
+</button> --}}
+</div>
+
+
+
+        

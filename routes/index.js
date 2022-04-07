@@ -3,6 +3,8 @@ var router = express.Router();
 var controller = require('../controllers/userController');
 var data = require('../controllers/dataUserController');
 var home = require('../controllers/home');
+var users = require('../models/user');
+
 
 /* GET home page. */
 router.get('/',controller.user_login);
@@ -24,6 +26,14 @@ router.get('/register', function(req, res, next){
   res.render('register', data);
 });
 
+router.get('/mensaje', (req, res) => {
+  var calle = "";
+  users.find({username:"jorgeManuel"},(err, result)=>{
+    console.log(result);
+    res.redirect(`https://api.whatsapp.com/send?phone=+52 418 132 6979 &text=Alerta solicito apoyo para la calle ${result[0].calle}`)
+  })
+
+})
 // function(req, res, next) {
 //   let data = {
 //     title: 'Ingresar al Sistema',

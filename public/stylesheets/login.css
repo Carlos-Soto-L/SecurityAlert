@@ -10,9 +10,30 @@
   /*background: linear-gradient(to right,#a790e7, #9871f3, #4533e9, #0e0beb);*/
 }
 
-body{
-  background-color: rgb(65, 62,62)
+.animated-background{
+  background: linear-gradient(
+    to right, #DCD9C6,
+    #74593D, #B5C1B4);
+  background-size: 400% 400%;
+  animation: animate-backgroud 10s infinite ease-in-out;
 }
+  @keyframes animate-background {
+    0%{
+      background-position:  50% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position:  50% 50%;
+    }
+  }
+
+  /* #66D7D1,
+  #FFF87F, #EAF2E3 */
+
+  /* Segundo color #DCD9C6,
+  #74593D, #B5C1B4 */
 
 .registro{
   text-align: center; 
@@ -35,3 +56,4 @@ body{
 #imagen{
   padding-right: 50rem;
 }
+
