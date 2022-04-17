@@ -80,7 +80,9 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Requerimientos -->
 #### Requerimientos.
-Listado de los requerimientos (código requerimiento, descripción)
+
+RNF001
+  ° El sistema contara con una base de datos para poder ir guardando el usuario y los datos mas importantes para que se pueda hacer uso de los datos al momento.
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
