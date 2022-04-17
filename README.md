@@ -174,7 +174,7 @@ Licencia.
 Contacto.
 
 ## Participantes
-* [participante 1]()
+* [participante 1](https://github.com/JorgeRico08)
 * [participante 2]()
 * [participante 3]()
 
