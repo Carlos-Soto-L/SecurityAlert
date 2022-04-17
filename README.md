@@ -81,6 +81,9 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 <!-- Requerimientos -->
 #### Requerimientos.
 
+RF002
+  ° Contendra una API el cual utilizara el cliente para tener comunicación via WhatsApp directammente con un oficial en caso de una emergencia
+
 RNF001
   ° El sistema contara con una base de datos para poder ir guardando el usuario y los datos mas importantes para que se pueda hacer uso de los datos al momento.
 
