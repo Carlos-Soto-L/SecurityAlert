@@ -146,6 +146,8 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 Caso de prueba 0001
 ## ![CP_001](https://user-images.githubusercontent.com/97042086/163701224-b0cad03e-bcae-4109-bc4e-d5a9436cb29a.png)
 
+Caso de pruba 0002
+## ![CP_002](https://user-images.githubusercontent.com/97042086/163701330-4295f243-bba7-4340-a9b5-4054a0eb8f99.png)
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
