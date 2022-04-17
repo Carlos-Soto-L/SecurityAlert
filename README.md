@@ -176,7 +176,7 @@ Licencia.
 Contacto.
 
 ## Participantes
-* [participante 1](https://github.com/JorgeRico08)
+* [Jorge Alejandro Rico Arvizu](https://github.com/JorgeRico08)
 * [participante 2]()
 * [participante 3](https://github.com/JairoBarron03)
 
