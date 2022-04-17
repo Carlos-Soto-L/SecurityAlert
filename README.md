@@ -93,7 +93,7 @@ Agregar la imagen de los Casos de Uso.
 En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Modelo Relacional -->
-#### Modelo Relacional.
+#### Modelo No Relacional.
 Esquema de la base de datos (nombre de campo, tipo de datos, restricciones, etc)
 
 <!-- Diagrama de Clases -->
