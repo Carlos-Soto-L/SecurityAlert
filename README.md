@@ -130,6 +130,8 @@ Estándares empleados en la codificación
 #### Arquitectura.
 Definir los patrones empleados y de seguridad.
 
+El modelo fue para el esquema que se utilizo en la base de datos, la vista la utlizamos para la visualicación del el proyecto en si, como lo es el diseño, formatos, camara etc. Y el controlador se utiliza para las funciones, como las vistas en las imagenes, consultas en la base de datos.
+
 <!-- Código Fuente -->
 #### Código Fuente.
 Código Fuente de la solución
