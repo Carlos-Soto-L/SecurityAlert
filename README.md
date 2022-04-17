@@ -87,6 +87,9 @@ RNF001
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
 
+RF002
+  ° Llamada de auxilio
+ ## ![Llamada](https://user-images.githubusercontent.com/99061666/163696438-2eee1db3-539a-474a-af19-1e1e4714750b.png)
 
 RNF001
   ° Acceso del usuario
