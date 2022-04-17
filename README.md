@@ -86,8 +86,11 @@ RNF001
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
-Agregar la imagen de los Casos de Uso.
 
+
+RNF001
+  ° Acceso del usuario
+  ![Caso de uso2 0](https://user-images.githubusercontent.com/97042086/163695749-590b940a-72ec-4537-813f-a67d2a0415e8.png)
 
 
 <!-- Diseño del proyecto -->
