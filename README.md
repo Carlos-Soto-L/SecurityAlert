@@ -96,7 +96,8 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Modelo Relacional -->
 #### Modelo No Relacional.
-Esquema de la base de datos (nombre de campo, tipo de datos, restricciones, etc)
+![1](https://user-images.githubusercontent.com/97042086/163695522-8688a979-d909-44fd-a8d0-6447a9ae6a2b.png)
+
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
