@@ -143,7 +143,9 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
-Indicar los casos de prueba
+Caso de prueba 0001
+## ![CP_001](https://user-images.githubusercontent.com/97042086/163701224-b0cad03e-bcae-4109-bc4e-d5a9436cb29a.png)
+
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
