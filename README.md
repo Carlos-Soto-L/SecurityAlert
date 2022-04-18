@@ -220,10 +220,10 @@ Licencia.
 ## Contacto
 Contacto.
 
-* [Jorge Alejandro Rico Arvizu]()
-* [Carlos Daniel Soto Ledezma]()
-* [Carlos Eduardo Rangel Lozano]()
-* [Jairo Barrón Loza]()
+* Jorge Alejandro Rico Arvizu
+* [Carlos Daniel Soto Ledezma]
+* [Carlos Eduardo Rangel Lozano]
+* [Jairo Barrón Loza]
 
 ## Participantes
 * [Jorge Alejandro Rico Arvizu](https://github.com/JorgeRico08)
