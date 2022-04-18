@@ -1,6 +1,7 @@
 var User = require('../models/user');
 const { body,validationResult } = require('express-validator');
 
+var iduser = "";
 
 exports.user_login = function(req, res) {
     res.render('login', {title: 'Ingresar al sistema' , layout:false})
@@ -93,10 +94,20 @@ exports.user_home = function(req, res) {
 
 // ];
 exports.user_inicio = function(req, res) {
-    console.log('Entrando al inicio')    
-    res.render('index') 
+    const usuario = req.session.usuario;
+    console.log('Entrando al inicio');
+    User.find({_id:iduser},(err, results)=>{
+        if (err) {
+            console.log("A ocurrido un error");
+        } else {
+            res.render('index', {usuarioid:results[0]._id});
+        }
+    }); 
+
 
 };
+
+
 
 exports.user_login_verify = function(req, res) {
     let usuario = req.body.username;
@@ -119,7 +130,8 @@ exports.user_login_verify = function(req, res) {
 
             if (results.length > 0) {
                 req.session.usuario = usuario;
-                res.render('index', {title:'Bienvenido'});
+                iduser = results[0]._id;
+                res.render('index', {title:'Bienvenido',usuarioid:results[0]._id});
             } else {
                 let data = {
                     title: 'Ingresar al Sistema',

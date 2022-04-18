@@ -14,6 +14,7 @@ var UserSchema = new Schema({
     colonia: {type:String},
     codigoPostal: {type: String},
     ciudad: {type:String},
+    fotos:{type:Array}
 });
 
 module.exports = mongoose.model('users', UserSchema);

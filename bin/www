@@ -8,6 +8,13 @@ var app = require('../app');
 var debug = require('debug')('securityalert:server');
 var http = require('http');
 
+// ####################       MQTT         ##########################
+// primero importamos el modulo mosca, pues este nos permite crear el broker 
+const mosca = require('mosca');
+const pub = require("../pub");
+const sub = require("../sub");
+// #####################################################################
+
 // #########          WEBSOCKET            #############
 const WebSocket = require('ws');
 const WS_PORT  = 8888;
@@ -20,7 +27,7 @@ let connectedClients = [];
 // Al conectarse un cliente nuevo 
 wsServer.on('connection', (ws, req)=>{
   // imprimira la siguiente leyenda en consola 
-    console.log('Connected');
+    console.log('Connected cliente 1');
     // Agrega el cliente en el arreglo 
     connectedClients.push(ws);
 // Al recibir un mensaje 
@@ -38,6 +45,74 @@ wsServer.on('connection', (ws, req)=>{
 /**
  * Get port from environment and store in Express.
  */
+
+// #########          WEBSOCKET  2            #############
+const WebSocket2 = require('ws');
+const WS_PORT2  = 8881;
+const user = require("../models/user");
+
+// Creamos nuestro servidor websocket 
+const wsServer2 = new WebSocket2.Server({port: WS_PORT2}, ()=> console.log(`WS Server is listening at ${WS_PORT2}`));
+
+// Al conectarse un cliente nuevo 
+wsServer2.on('connection', (ws2, req)=>{
+  // imprimira la siguiente leyenda en consola 
+    console.log('Connected cliente 2');
+// Al recibir un mensaje 
+    ws2.on('message', data => {
+          console.log('received: %s', data," de tipo ",typeof(data));
+          foto = data.slice(5,17); 
+          id_usuario = data.slice(28,52); 
+          console.log(foto,"  id  ",id_usuario);
+
+          user.updateOne({_id:id_usuario},{$addToSet:{"fotos":{$each:[foto]}}},(err, result)=>{
+            if (err) {
+              console.log("A ocurrio un error ",err.message);
+            } else {
+              console.log("Foto agregada al usuario correctamente");
+            }
+        });
+    });
+});
+/**
+ * Get port from environment and store in Express.
+ */
+
+// ######################   MQTT ###########################################
+
+// Creamos nuestro servidos broker con ayuda de mosca 
+const broker = new mosca.Server({
+  // especificamos el puerto del servidor
+  port:9001
+});
+
+// creamos un escucha de un evento con la palabra on 
+// ready es un evente en donde informa que el servidor ya esta levantado
+broker.on("ready",(err,result)=>{
+  if (err) {
+      console.log("A ocurrido un error");
+      console.log(err.message);
+  } else {
+      console.log("Servidor Broker escuchando en el puerto 9001");
+  }
+
+});
+
+// el evento clientConnected avisa cuando se conecta un nuevo cliente 
+// sucriptor/publicador
+broker.on("clientConnected",(client)=>{
+  // el parametro client contiene la informacion del cliente 
+  console.log("Nuevo cliente "+client.id)
+});
+
+// cuando el broker resive un nuevo mensaje de un publicador para mandarlo a los suscriptores interesados 
+broker.on("published",(packet)=>{
+  // packet almacena la informacion del mensaje 
+  // payload es el mensaje en si
+  // console.log(packet.payload.toString());
+})
+
+// #######################################################################
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);

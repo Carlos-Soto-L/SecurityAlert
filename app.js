@@ -6,6 +6,8 @@ var logger = require('morgan');
 const mongo = require('./config/conexionMongo');
 const session = require('express-session');
 
+
+
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 
@@ -15,10 +17,12 @@ mongo();
 app.set('trust proxy', 1);
 app.use(session({
   secret: 'keyboard cat',
-  resave: false,
+  resave: true,
   saveUninitialized: true,
   cookie: { secure: true }
 }))
+
+
 
 // view engine setup 
 const hbs = require('hbs');

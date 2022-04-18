@@ -34,6 +34,19 @@ router.get('/mensaje', (req, res) => {
   })
 
 })
+
+
+router.post("/verfotosalerta/:id",(req, res)=>{
+  const iduser = req.params.id;
+  users.find({_id:iduser},{fotos:1,_id:0},(err, result)=>{
+    if (err) {
+      console.log("A ocurrido un error ", err.message);
+    } else {
+      res.render("fotosAlerta",{fotos:result[0].fotos});
+    }
+  });
+
+});
 // function(req, res, next) {
 //   let data = {
 //     title: 'Ingresar al Sistema',

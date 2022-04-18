@@ -19,7 +19,7 @@
     <img src="" style="display: block;margin: 30px auto;">
         <script>
             const img = document.querySelector('img');
-            const WS_URL = 'ws:///192.168.1.75:8888';
+            const WS_URL = 'ws:///192.168.1.121:8888';
             const ws = new WebSocket(WS_URL);
             let urlObject;
             ws.onopen = () => console.log(`Connected to ${WS_URL}`);
@@ -42,6 +42,10 @@
 
 <form action="/mensaje" method="get">
     <input class="alert" type="submit" value="Alerta">
+</form>
+
+<form action="/verfotosalerta/{{usuarioid}}" method="post">
+    <input  type="submit" value="Evidencia">
 </form>
 
 {{!-- <button class="alert" href="/mensaje" onclick="">ALERTA
