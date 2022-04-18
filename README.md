@@ -96,6 +96,9 @@ RF001-Transmisión de video de vigilancia.
 RF002-API dde WhatsApp.
   ° Contendra una API el cual utilizara el cliente para tener comunicación via WhatsApp directammente con un oficial en caso de una emergencia
 
+RF003-Sistema y mecanismo de alerta
+  °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activan y detecten movimiento. El sistema Permite al usuario enlazar a la aplicación para revisar la transmisión de la cámara de seguridad y posteriormente mandar la alerta al oficial de policía.
+  
 RNF001-Manejo de datos.
   ° El sistema contara con una base de datos para poder ir guardando el usuario y los datos mas importantes para que se pueda hacer uso de los datos al momento.
 
@@ -106,10 +109,13 @@ RF001
   ° Tansmisión de video vigilancia
  ##  <img width="410" alt="Captura" src="https://user-images.githubusercontent.com/67080087/163804359-72394eb8-5f5b-44ed-8368-ff4e54b9c6e5.PNG">
 
-
 RF002
   ° Llamada de auxilio
  ## ![Llamada](https://user-images.githubusercontent.com/99061666/163696438-2eee1db3-539a-474a-af19-1e1e4714750b.png)
+
+RF003
+  ° Sistema y mecanismo de alerta
+ ## ![Sistema](https://user-images.githubusercontent.com/67080087/163806970-b1956fea-517b-473b-b5c1-ed15c79f766c.png)
 
 RNF001
   ° Acceso del usuario
