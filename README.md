@@ -81,6 +81,12 @@ Organigrama.
 #### Diagrama Gantt.
 Puedes consultar Nuestra planeación desde el siguinte enlace <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/personal/1220100361_alumnos_utng_edu_mx/EbHm5uA3sONLsx6LKbDD1uwBL4ueRtn_7jXb6F5v5CjClQ?e=E7AAdw">Clic aqui</a>
 
+<!-- Diagrama de componentes -->
+#### Diagrama Componentes
+
+![2093ff29-adea-4956-90c1-6ef839b04e45](https://user-images.githubusercontent.com/67080087/163809944-8b02ae30-0409-44d2-8d4a-03ef2e195f90.jpg)
+
+
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
 En ésta sección se indicará los artefactos generados en base a la solución.
@@ -227,6 +233,7 @@ Contacto.
 ## Participantes
 * [Jorge Alejandro Rico Arvizu](https://github.com/JorgeRico08)
 * [Carlos Daniel Soto Ledezma](https://github.com/Carlos-Soto-L)
+* [Carlos Eduardo Rangel Lozano]()
 * [Jairo Barrón Loza](https://github.com/JairoBarron03)
 
 [contribuidores-shield]: https://img.shields.io/github/contributors/github_username/repo_name.svg?style=for-the-badge
