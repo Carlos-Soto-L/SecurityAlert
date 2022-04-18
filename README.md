@@ -74,7 +74,7 @@ Crear producto de seguridad el cual ayude a manetener seguros a nuestros cliente
 #### Organigrama.
 Organigrama.
 
-
+![Captura de pantalla 2022-04-18 015614](https://user-images.githubusercontent.com/97042086/163769173-27b99dd7-ef94-46e8-9818-5cbba763ddc1.png)
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
