@@ -220,10 +220,10 @@ Licencia.
 ## Contacto
 Contacto.
 
-* Jorge Alejandro Rico Arvizu
-* [Carlos Daniel Soto Ledezma]
-* [Carlos Eduardo Rangel Lozano]
-* [Jairo Barrón Loza]
+* ricoarvizujorge2002@gmail.com
+* carlosoto191@gmail.com
+* lalo456rangel@gmail.com
+* jairobarron08@gmail.com
 
 ## Participantes
 * [Jorge Alejandro Rico Arvizu](https://github.com/JorgeRico08)
