@@ -213,6 +213,8 @@ Licencia.
 ## Contacto
 Contacto.
 
+jairobarron08@gmail.com
+
 ## Participantes
 * [Jorge Alejandro Rico Arvizu](https://github.com/JorgeRico08)
 * [Carlos Daniel Soto Ledezma](https://github.com/Carlos-Soto-L)
