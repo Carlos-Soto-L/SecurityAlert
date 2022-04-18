@@ -3,6 +3,7 @@ const { body,validationResult } = require('express-validator');
 const res = require('express/lib/response');
 
 exports.user_data = function(req, res) {
+    
     res.render('userDates', {title: 'Ingresar a datos' , layout:false})
 };
 

@@ -40,11 +40,11 @@
 {{!-- class="dropdown-item" href="https://api.whatsapp.com/send?phone=+52 418 132 6979 &text=Alerta solicito apoyo !!! "><img src="../img/alerta.png" width="30" height="30" 
         class="d-inline-block align-top" alt="" --}}
 
-<form action="/mensaje" method="get">
+<form action="/mensaje/{{usuarioid}}" method="get">
     <input class="alert" type="submit" value="Alerta">
 </form>
 
-<form action="/verfotosalerta/{{usuarioid}}" method="post">
+<form action="/verfotosalerta/{{usuarioid}}" method="get">
     <input  type="submit" value="Evidencia">
 </form>
 

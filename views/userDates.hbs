@@ -16,49 +16,69 @@
     </div>
 
     <div class="container" style="margin-top: 4rem;">
-      
-       <table>
-        <tr>
-            <td></td>
-        </tr>
-        <tr style="background-color: rgb(105, 209, 123); font-weight: bold;">
-            <td>ID</td>
-            <td colspan="2">Nombre Completo</td>
-            <td>Edad</td>
-            <td>Modificar</td>
-            <td>Eliminar </td>
-        </tr>
-        <tr> 
-            <td> {{item.id}} </td>
-            <td colspan="2">{{item.name}}</td>
-            <td>{{item.age}}</td>
-            {{!-- <td><a href="/users/update/<%= item.id %>" id="btn-update">Modificar</a></td>
-            <td><a href="/users/delete/<%= item.id %>" id="btn-delete">Eliminar</a></td> --}}
 
-            <tr>
-                <td colspan="6" style="background-color: rgb(208, 253, 216); font-weight: bold;">Informacion personal</td>
-           </tr>
-           <tr style="background-color: rgb(105, 209, 123); font-weight: bold;">
-                <td>Gmail</td>
-                <td>Curp</td>
-                <td>Telefono</td>
-                <td>Domicilio</td>
-                <td>Ciudad</td>
-                <td>INE</td>
-           </tr>
-          
-    <tr>
-       {{#each users}}
-                <tr>
-                    <td>{{gmail}}</td>
-                    <td>{{telefono}}</td>
-                    <td>{{domicilio}}</td>
-                    <td>{{ciudad}}</td>
-                </tr>
-      {{/each}}
-        </tr>
- 
-   </table>
+
+      {{!-- ///////////////////////////////////////////////////////////////////////// --}}
+          {{#each users}}
+  <form class="row g-3" action="/actualizardatos/{{_id}}" method="post">
+
+      <div class="col-auto">
+    <label for="staticEmail2" class="form-label">ID del cliente</label>
+    <input class="form-control" type="text" aria-label="default input example" name="id" value="{{_id}}" disabled>
+  </div>
+  <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Nombre</label>
+    <input class="form-control" type="text" aria-label="default input example" name="nombre" value="{{nombre}}">
+  </div>
+    <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Apellidos</label>
+    <input class="form-control" type="text" aria-label="default input example" name="ape" value="{{ape}}">
+  </div>
+    <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Telefono</label>
+    <input class="form-control" type="text" aria-label="default input example" name="telefono" value="{{telefono}}">
+  </div>
+      <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Email</label>
+    <input class="form-control" type="text" aria-label="default input example" name="email" value="{{email}}">
+  </div>
+        <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Numero</label>
+    <input class="form-control" type="text" aria-label="default input example" name="numero" value="{{numero}}">
+  </div>
+          <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Numero interior</label>
+    <input class="form-control" type="text" aria-label="default input example" name="numeroint" value="{{numeroint}}">
+  </div>
+          <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Colonia</label>
+    <input class="form-control" type="text" aria-label="default input example" name="colonia" value="{{colonia}}">
+  </div>
+            <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Ciudad</label>
+    <input class="form-control" type="text" aria-label="default input example" name="ciudad" value="{{ciudad}}">
+  </div>
+          <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Calle</label>
+    <input class="form-control" type="text" aria-label="default input example" name="calle" value="{{calle}}">
+  </div>
+          <div class="col-auto">
+    <label for="staticEmail2" class="form-label">Username</label>
+    <input class="form-control" type="text" aria-label="default input example" name="username" value="{{username}}">
+  </div>
+  <div class="col-auto">
+    <label for="inputPassword2" class="form-label">Password</label>
+    <input type="password" class="form-control" id="inputPassword2" placeholder="Password" name="password" value="{{password}}">
+  </div>
+  <div class="col-auto">
+    <div style="clear: both; padding-top: 150px;"></div>
+    <button type="submit" class="btn btn-primary btn-lg">Actualizar</button>
+    <a class="btn btn-primary btn-lg " role="button"  href="/inicio">Regresar</a>
+    {{!-- <button ><a href="/inicio" class="btn-primary mb-3">Regresar</a></button> --}}
+  </div>
+
+</form>
+  {{/each}}
 
 
     </div>

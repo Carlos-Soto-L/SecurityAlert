@@ -98,7 +98,7 @@ exports.user_inicio = function(req, res) {
     console.log('Entrando al inicio');
     User.find({_id:iduser},(err, results)=>{
         if (err) {
-            console.log("A ocurrido un error");
+            console.log("A ocurrido un error",err.message);
         } else {
             res.render('index', {usuarioid:results[0]._id});
         }
@@ -169,3 +169,15 @@ exports.user_logout = function(req, res) {
 
 };
 
+
+exports.user_data = function(req, res) {
+    User.find({_id:iduser},(err, reslut)=>{
+        if (err) {
+            console.log("A ocurrido un error ",err.message);
+        } else {
+            console.log(reslut);
+            res.render('userDates', {users: reslut , layout:false})   
+        }
+    });
+
+};

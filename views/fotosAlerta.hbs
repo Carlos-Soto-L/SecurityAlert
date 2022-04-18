@@ -9,23 +9,21 @@
 </head>
 <body>
     <div class="container">
-
         {{#each fotos}}
 
             <div class="card" style="width: 18rem; margin: 10px auto;">
         <img src="/img/ladron.png" class="card-img-top" alt="...">
         <div class="card-body">
             <h5 class="card-title">Evidencia {{this}}</h5>
+
             <a href="http://esp32camftp.rf.gd/fotos/{{this}}" class="btn btn-primary">Ver evidencia</a>
             <a href="https://api.whatsapp.com/send?phone=+52 418 132 6979 &text= Evidencia de robo: http://esp32camftp.rf.gd/fotos/{{this}}" class="btn btn-primary">Enviar </a>
+            <a href="/eliminarfoto/{{this}}" class="btn btn-primary">Borrar</a>
         </div>
         </div>
         {{/each}}
+
     </div>
-
-
-
-<img src="http://esp32camftp.rf.gd/fotos/17:17:04.jpg">
 
 
 
