@@ -213,10 +213,10 @@ Licencia.
 ## Contacto
 Contacto.
 
-*carlosoto191@gmail.com
-*ricoarvizujorge2002@gmail.com
-*jairobarron08@gmail.com
-*lalo456rangel@gmail.com
+###carlosoto191@gmail.com
+###ricoarvizujorge2002@gmail.com
+###jairobarron08@gmail.com
+###lalo456rangel@gmail.com
 
 ## Participantes
 * [Jorge Alejandro Rico Arvizu](https://github.com/JorgeRico08)
