@@ -81,12 +81,6 @@ Organigrama.
 #### Diagrama Gantt.
 Puedes consultar Nuestra planeación desde el siguinte enlace <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/personal/1220100361_alumnos_utng_edu_mx/EbHm5uA3sONLsx6LKbDD1uwBL4ueRtn_7jXb6F5v5CjClQ?e=E7AAdw">Clic aqui</a>
 
-<!-- Diagrama de componentes -->
-#### Diagrama Componentes
-
-![2093ff29-adea-4956-90c1-6ef839b04e45](https://user-images.githubusercontent.com/67080087/163809944-8b02ae30-0409-44d2-8d4a-03ef2e195f90.jpg)
-
-
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
 En ésta sección se indicará los artefactos generados en base a la solución.
@@ -146,6 +140,7 @@ Esquema de las clases empleadas (atributos y sus métodos).
 #### Diagrama de Componentes.
 Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
 
+![2093ff29-adea-4956-90c1-6ef839b04e45](https://user-images.githubusercontent.com/67080087/163810194-0d7221d6-ada3-4d2d-9901-417553b9bc96.jpg)
 
 <!-- Implementación del proyecto -->
 ## Implementación.
