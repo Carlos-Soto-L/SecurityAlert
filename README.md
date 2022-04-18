@@ -62,13 +62,19 @@ Requisitos.
 #### Descripción.
 Indicar la descripción del proyecto (tiempo, costo y calidad).
 
+Esta enfocado en crear un producto de seguridad, el cual este consistira en una camara para que así el cliente pueda observar desde su dispositivo movil permitiendo así mandar alertas de seguridad en caso de un asalto, teniendo comunicación via WhatsApp directamente con un oficial de policia.
+
 <!-- Objetivos -->
 #### Objetivos.
 Indicar los objetivos del proyecto.
 
+Crear producto de seguridad el cual ayude a manetener seguros a nuestros clientes
+
 <!-- Organigrama -->
 #### Organigrama.
 Organigrama.
+
+
 
 <!-- Diagrama Gantt -->
 #### Diagrama Gantt.
