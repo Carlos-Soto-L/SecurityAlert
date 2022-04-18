@@ -107,7 +107,7 @@ RNF001
 Este sera el modelo que se generar para gestionar los datos de manera mas completa y poder obtener manipular la coleccion de manarea mas rapida.
 
 ![1](https://user-images.githubusercontent.com/97042086/163695522-8688a979-d909-44fd-a8d0-6447a9ae6a2b.png)
-
+<!-- Diagrama de Clases -->
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
