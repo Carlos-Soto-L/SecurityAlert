@@ -140,7 +140,7 @@ Esquema de las clases empleadas (atributos y sus métodos).
 
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
-Esquema de los componentes que interactúan (Modelo, Vista, Controlador, Servidor Web, Servidor de base de datos)
+Esquema de los componentes que interactúan
 
 ![2093ff29-adea-4956-90c1-6ef839b04e45](https://user-images.githubusercontent.com/67080087/163810194-0d7221d6-ada3-4d2d-9901-417553b9bc96.jpg)
 
