@@ -90,14 +90,22 @@ En ésta sección se indicará los artefactos generados en base a la solución.
 <!-- Requerimientos -->
 #### Requerimientos.
 
-RF002
+RF001-Transmisión de video de vigilancia.
+  ° El usuario podrá visualizar transmisión de video vigilancia en tiempo real, así mismo obtener imágenes de posibles actividades sospechosas, las cuales podrán ser administradas (consultar y borrar) por el usuario.
+
+RF002-API dde WhatsApp.
   ° Contendra una API el cual utilizara el cliente para tener comunicación via WhatsApp directammente con un oficial en caso de una emergencia
 
-RNF001
+RNF001-Manejo de datos.
   ° El sistema contara con una base de datos para poder ir guardando el usuario y los datos mas importantes para que se pueda hacer uso de los datos al momento.
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
+
+RF001
+  ° Tansmisión de video vigilancia
+ ##  <img width="410" alt="Captura" src="https://user-images.githubusercontent.com/67080087/163804359-72394eb8-5f5b-44ed-8368-ff4e54b9c6e5.PNG">
+
 
 RF002
   ° Llamada de auxilio
