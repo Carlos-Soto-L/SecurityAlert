@@ -173,13 +173,13 @@ Caso de prueba 0001
 ## ![CP_001](https://user-images.githubusercontent.com/97042086/163701224-b0cad03e-bcae-4109-bc4e-d5a9436cb29a.png)
 
 Caso de pruba 0002
-## ![CP_002](https://user-images.githubusercontent.com/97042086/163701330-4295f243-bba7-4340-a9b5-4054a0eb8f99.png)
+## ![CP_004](https://user-images.githubusercontent.com/97042086/163701762-d0ffa4ee-db24-4e59-a417-dd75ea4ccdec.png)
 
 Caso de prueba 0003
 ## ![CP_003](https://user-images.githubusercontent.com/97042086/163701589-630b4f00-81cd-4b14-b547-44cbb3542380.png)
 
 Caso de prueba 0004
-## ![CP_004](https://user-images.githubusercontent.com/97042086/163701762-d0ffa4ee-db24-4e59-a417-dd75ea4ccdec.png)
+## ![CP_002](https://user-images.githubusercontent.com/97042086/163701330-4295f243-bba7-4340-a9b5-4054a0eb8f99.png)
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
