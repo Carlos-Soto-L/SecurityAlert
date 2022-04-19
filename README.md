@@ -188,13 +188,13 @@ Caso de prueba 0001
 ## ![ECP-Registro](https://user-images.githubusercontent.com/97042086/163772631-15f5cd02-1ee5-489e-8973-1cfec87a40af.png)
 
 Caso de pruba 0002
-## ![ECP-Login](https://user-images.githubusercontent.com/97042086/163772652-32da440c-7138-497d-a780-c41238a3835a.png)
+## ![ECP-Salir](https://user-images.githubusercontent.com/97042086/163772694-1bbe4b74-d09f-44dd-ba27-a8ae45e18abd.jpeg)
 
 Caso de prueba 0003
 ## ![ECP-Actualizar datos](https://user-images.githubusercontent.com/97042086/163772674-6daa3e32-de9b-454d-ba97-ea915afb3215.jpeg)
 
 Caso de prueba 0004
-## ![ECP-Salir](https://user-images.githubusercontent.com/97042086/163772694-1bbe4b74-d09f-44dd-ba27-a8ae45e18abd.jpeg)
+## ![ECP-Login](https://user-images.githubusercontent.com/97042086/163772652-32da440c-7138-497d-a780-c41238a3835a.png)
 
 
 <!-- Iniciando -->
