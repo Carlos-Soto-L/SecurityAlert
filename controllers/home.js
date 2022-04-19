@@ -1,6 +1,7 @@
 var Users = require('../models/user');
 const { body,validationResult } = require('express-validator');
 var User = require('../models/datos');
+const user = require('../models/user');
 
 
 exports.user_login_verify = [

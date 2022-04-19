@@ -4,6 +4,8 @@ const mqtt = require('mqtt');
 // debemos instalar el modulo: serialport
 const serialport = require('serialport');
 
+
+const pub = mqtt.connect('mqtt://localhost:9001');
 // para definir el puerto donde leremos los datos del arduino, se necesita 
 // instanciar un serialport, con el puerto conectado al arduino y un objecto,
 // especificando la taza de envio de datos por serial 
@@ -11,16 +13,26 @@ const port = new serialport("COM3",{
     baudRate:9600
 });
 
+// var funcion12 = setInterval(function enviarMensaje() {
+//     console.log(new Date().toLocaleTimeString());
+//         console.log("Mandando mensaje")
+//          ws.send("Hola");
+// },1000*10);
+
 // Convertir los datos que llega del serial a un string 
 // readLine = Leer una linea que esta llegando por el serial y le pasamos un dilimitador
 // \n = significa quiebre de linea (final de linea)
-const parser = port.pipe(new serialport.parsers.Readline({delimiter:'\n'}))
 
 
+port.on('error', function(err){
+        console.log("error ----> " + err)
+
+});
+
+
+const parser = port.pipe(new serialport.parsers.Readline({delimiter:'\n'}));
 // el cliente se conecta al servidor broker
 // no se utiliza http si no mqtt 
-const pub = mqtt.connect('mqtt://localhost:9001');
-
 pub.on('connect',()=>{
 //   data =  es cuando el lee o le llega datos por el serial 
 parser.on('data',(datosrecibidos)=>{
@@ -29,7 +41,11 @@ parser.on('data',(datosrecibidos)=>{
             // ("titulo de mensaje","mensaje")
     pub.publish("Topic test",datosrecibidos);
 })
-
 });
+
+
+
+
+
 
 module.exports = pub;

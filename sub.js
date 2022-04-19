@@ -19,11 +19,11 @@ sub.on("connect",()=>{
 
 
 // funcion para enviar una mensaje 
-var funcion12 = setInterval(function enviarMensaje() {
-    console.log(new Date().toLocaleTimeString());
-        console.log("Mandando mensaje")
-         ws.send("Hola");
-},1000*10);
+// var funcion12 = setInterval(function enviarMensaje() {
+//     console.log(new Date().toLocaleTimeString());
+//         console.log("Mandando mensaje")
+//          ws.send("Hola");
+// },1000*10);
 
 
 var contador = 0;
@@ -43,14 +43,14 @@ sub.on("message",(topic,mensaje)=>{
     // imprimimos los datos entregados 
     //  console.log(mensaje.toString());
 
-    if (mensaje.toString() == 1) {
-            funcion12;
+    if (mensaje.toString().trim() == 'Activo') {
+            // funcion12;
             ++contador;
             funcion13;     
     }else{
         // console.log(mensaje.toString());
         // funcion2;
-        funcion12.refresh();
+        // funcion12.refresh();
         funcion13.refresh(); 
     }
 

@@ -98,4 +98,5 @@ router.post("/actualizardatos/:id",(req, res)=>{
 //   res.render('login', data);
 // }
 
+
 module.exports = router;
