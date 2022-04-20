@@ -96,7 +96,7 @@ RF001-Transmisión de video de vigilancia.
   ° El usuario podrá visualizar transmisión de video vigilancia en tiempo real, así mismo obtener imágenes de posibles actividades sospechosas, las cuales podrán ser administradas (consultar y borrar) por el usuario.
 
 RF002-API dde WhatsApp.
-  ° Contendra una API el cual utilizara el cliente para tener comunicación via WhatsApp directammente con un oficial en caso de una emergencia
+  ° Ayudar los usuarios tener comunicación via WhatsApp en caso de una emergencía 
 
 RF003-Sistema y mecanismo de alerta
   °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activan y detecten movimiento. El sistema Permite al usuario enlazar a la aplicación para revisar la transmisión de la cámara de seguridad y posteriormente mandar la alerta al oficial de policía.
