@@ -248,10 +248,14 @@ Intalar un navegador web
 ## Guias
 <ol>
 	<li>Entrar a la aplicacion y registrar una cuenta</li>
-	<li>Contactar al equipo de <a href="#contacto">soporte</a> (este configurada los componentes nesesarios para el correcto funcionamento de la app)</li>
-	<li></li>
-	<li></li>
-	<li></li>
+	<li>Contactar al equipo de <a href="#contacto">soporte</a> (este configudará los componentes nesesarios para el correcto funcionamento de la app)</li>
+	<ol>
+		<h3>Actualizar datos</h3>
+			<li>Iniciar sección</li>
+			<li>Ir al apatado perfil en la parte superior</li>	
+			<li>Actualizar datos y dar en la opcion Actualizar</li>
+	</ol>
+
 </ol>
 
 ## contribucion
