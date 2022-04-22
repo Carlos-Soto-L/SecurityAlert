@@ -132,7 +132,8 @@ RF004
 #### Modelo No Relacional.
 Este sera el modelo que se generar para gestionar los datos de manera mas completa y poder obtener manipular la coleccion de manarea mas rapida.
 
-![1](https://user-images.githubusercontent.com/97042086/163695522-8688a979-d909-44fd-a8d0-6447a9ae6a2b.png)
+![Base de datos](https://user-images.githubusercontent.com/97042086/164764207-adbb488b-0080-4509-9c63-68b4a4868bd1.png)
+
 <!-- Diagrama de Clases -->
 
 <!-- Diagrama de Clases -->
