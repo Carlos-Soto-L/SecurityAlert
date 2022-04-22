@@ -109,6 +109,9 @@ RF004-Registar datos del usuario<br>
 RF005-Actualizar datos del perfil del usuario<br>
   ° El usuario tendra la opcion de actualizar los datos de su perfil
 
+RF009-Detector de incendios<br>
+  ° Se buscara que el usuario tenga un detector de incendios en tiempo real, esta ira conectado a una alarma. 
+
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
 
