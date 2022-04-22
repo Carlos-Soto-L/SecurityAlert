@@ -197,9 +197,8 @@ Los ficheros se nombrarán siempre en minúsculas para evitar errores con aquell
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
-Definir los patrones empleados y de seguridad.
+![image](https://user-images.githubusercontent.com/67080087/164775204-85c53525-a742-426b-b311-678655ff30c3.png)
 
-El modelo fue para el esquema que se utilizo en la base de datos, la vista la utlizamos para la visualicación del el proyecto en si, como lo es el diseño, formatos, camara etc. Y el controlador se utiliza para las funciones, como las vistas en las imagenes, consultas en la base de datos.
 
 <!-- Código Fuente -->
 #### Código Fuente.
