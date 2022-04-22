@@ -59,7 +59,14 @@
 
 <!-- Descripción -->
 #### Descripción.
-Indicar la descripción del proyecto (tiempo, costo y calidad).
+Consiste en una aplicación web, cuya función principal es alertar a un policía cuando los mecanismos o sistemas de seguridad de algún establecimiento o casa habitación sean corrompidos. El sistema será capaz de enviar una alerta con toda la información necesaria para la oportuna intervención de los agentes de policía mediante la implementación de un api de WhatsApp, así como alertar al usuario ante un posible ataque a su hogar, usando un Bot, desarrollado para la herramienta de Telegram 
+
+ 
+
+Para evitar falsas alarmas el sistema contará con una cámara de seguridad que estará grabando 24/7, así como una serie de sensores para obtener datos precisos y en tiempo real.  
+
+
+El costo de producción será de aproximadamente $1100, los gastos podrían variar dependiendo el precio y el lugar donde se adquieran los elementos de Domótica a usar.
 
 
 <!-- Objetivos -->
@@ -276,7 +283,10 @@ Intalar un navegador web
 
 
 ## Licencia
-Licencia.
+Licencia ISC
+Licencia de software libre permisiva publicada
+por el Internet Software Consortium, hor en día llamado
+Internet Systems Consortium(ISC)
 
 ## Contacto
 
