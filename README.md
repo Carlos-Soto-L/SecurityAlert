@@ -285,7 +285,7 @@ Intalar un navegador web
 ## Licencia
 Licencia ISC
 Licencia de software libre permisiva publicada
-por el Internet Software Consortium, hor en día llamado
+por el Internet Software Consortium, hoy en día llamado
 Internet Systems Consortium(ISC)
 
 ## Contacto
