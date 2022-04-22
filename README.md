@@ -85,7 +85,6 @@ Puedes consultar Nuestra planeación desde el siguinte enlace <a href="https://u
 
 <!-- Análisis del proyecto -->
 ## Análisis de la Solución.
-En ésta sección se indicará los artefactos generados en base a la solución.
 
 <!-- Requerimientos -->
 #### Requerimientos.
@@ -141,7 +140,7 @@ Este sera el modelo que se generar para gestionar los datos de manera mas comple
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
-Esquema de las clases empleadas (atributos y sus métodos).
+
 
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
@@ -242,7 +241,8 @@ Iniciando.
 
 <!-- Requisitos -->
 ### Requisitos
-Requisitos de Instalación.
+•	Buena señal inalámbrica, pero menor a 5G.<br>
+•	Navegador Edge, Chrome o Mozilla de preferencia.
 
 <!-- Instalación -->
 ### Instalacion
