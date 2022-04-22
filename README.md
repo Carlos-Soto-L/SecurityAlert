@@ -143,8 +143,9 @@ Este sera el modelo que se generar para gestionar los datos de manera mas comple
 <!-- Diagrama de Componentes -->
 #### Diagrama de Componentes.
 Esquema de los componentes que interactúan
+![Diagrama de componentes1](https://user-images.githubusercontent.com/99061666/164765575-01fff003-4c9c-4be8-94cf-361d60e2156a.png)
 
-![2093ff29-adea-4956-90c1-6ef839b04e45](https://user-images.githubusercontent.com/67080087/163810194-0d7221d6-ada3-4d2d-9901-417553b9bc96.jpg)
+
 
 <!-- Implementación del proyecto -->
 ## Implementación.
