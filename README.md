@@ -101,8 +101,11 @@ RF002-API dde WhatsApp.
 RF003-Sistema y mecanismo de alerta
   °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activan y detecten movimiento. El sistema Permite al usuario enlazar a la aplicación para revisar la transmisión de la cámara de seguridad y posteriormente mandar la alerta al oficial de policía.
   
-RF004-.
-  ° 
+RF004-Registar datos del usuario
+  ° El usuario debera registrar una cuenta para que este pueda acceder a la aplicacion
+  
+RF005-Actualizar datos del perfil del usuario
+  ° El usuario tendra la opcion de actualizar los datos de su perfil
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
@@ -120,8 +123,12 @@ RF003
  ## ![Sistema](https://user-images.githubusercontent.com/67080087/163806970-b1956fea-517b-473b-b5c1-ed15c79f766c.png)
 
 RF004
-  ° Acceso del usuario
- ## ![CASO DE USO CORRECTO](https://user-images.githubusercontent.com/97042086/164741350-d0462411-2be3-40a6-9e06-49c33d615a30.png)
+  ° Registar datos del usuario
+ ## ![CASO DE USO CORRECTO](https://user-images.githubusercontent.com/97042086/164744155-b0394dd4-47c1-4ff8-be1c-b08da75b05ee.png)
+
+RF004
+  ° Actualizar datos de perfil
+ ## ![CASO DE USO CORRECTO_2](https://user-images.githubusercontent.com/97042086/164744174-52240cd4-2c6c-4cde-9214-2502df686313.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
