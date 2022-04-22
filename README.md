@@ -156,7 +156,41 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Estándares de Codificación -->
 #### Estándares Codificación.
-Estándares empleados en la codificación
+## Los ficheros se nombrarán siempre en minúsculas para evitar errores con aquellas plataformas ‘sensitive-case’. Los ficheros tienen que concluir con la extensión .js, y no deben incluir signos de puntuación excepto – (guión medio) o _ (guión bajo), siendo preferible este último a la hora de separar palabras.
+
+Security Alert
+    app.js
+    pub.js
+    sub.js
+    /bin
+        www
+    package.json
+    package-lock.json
+    /node_modules
+        [about 6700 subdirectories and files]
+    /public
+        /images
+        /stylesheets
+            style.css
+    /config
+        conexion_mongo.js
+    /models
+        user.js
+    /controllers
+        user_controller.js
+    /routes
+        index.js
+        users.js
+    /views
+	/partials
+	   footer.hbs
+	   header.hbs
+        error.hbs
+        index.hbs
+        layout.hbs
+        login.hbs
+        register.hbs
+        user_dates.hbs
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
