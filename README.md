@@ -57,8 +57,6 @@
 <!-- Acerca del proyecto -->
 ## Acerca del proyecto
 
-Este proyecto se enfocara principalmente en crear un producto de seguridad, que podra monitorear el cliente y mandar alertas de auxilio a un oficial de policia
-
 <!-- Descripción -->
 #### Descripción.
 Indicar la descripción del proyecto (tiempo, costo y calidad).
