@@ -113,8 +113,9 @@ RF002
 
 
 RF003
-  ° Sistema y mecanismo de alerta
- ## ![Sistema](https://user-images.githubusercontent.com/67080087/163806970-b1956fea-517b-473b-b5c1-ed15c79f766c.png)
+  ° Sistema de alerta
+ ## ![Caso de uso 1](https://user-images.githubusercontent.com/97042410/164762041-8f66d137-e29d-4264-b6c0-3f1add1d63bc.jpeg)
+
 
 RF004
   ° Registar datos del usuario
