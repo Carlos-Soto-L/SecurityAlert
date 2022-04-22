@@ -65,9 +65,7 @@ Esta enfocado en crear un producto de seguridad, el cual este consistira en una 
 
 <!-- Objetivos -->
 #### Objetivos.
-Indicar los objetivos del proyecto.
-
-Crear producto de seguridad el cual ayude a manetener seguros a nuestros clientes
+Sistema de seguridad que ayude a manetener la seguridad de sus asuarios de forma simple y eficaz.
 
 <!-- Organigrama -->
 #### Organigrama.
@@ -246,14 +244,14 @@ Iniciando.
 
 <!-- Instalación -->
 ### Instalacion
-Instalación del Software
+Intalar un navegador web
 
 
 ## Guias
 Guias de Uso.
 
 ## contribucion
-Contribucion.
+
 
 ## Licencia
 Licencia.
