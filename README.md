@@ -197,8 +197,7 @@ Los ficheros se nombrarán siempre en minúsculas para evitar errores con aquell
 
 <!-- Arquitectura MVC y Middleware -->
 #### Arquitectura.
-![image](https://user-images.githubusercontent.com/67080087/164775204-85c53525-a742-426b-b311-678655ff30c3.png)
-
+![image](https://user-images.githubusercontent.com/67080087/164775486-2b436999-4576-4d6b-b6ef-802aa31549da.png)
 
 <!-- Código Fuente -->
 #### Código Fuente.
