@@ -82,6 +82,8 @@ Sistema de seguridad que ayude a manetener la seguridad de sus asuarios de forma
 #### Diagrama Gantt.
 Puedes consultar Nuestra planeación desde el siguinte enlace <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/personal/1220100361_alumnos_utng_edu_mx/EbHm5uA3sONLsx6LKbDD1uwBL4ueRtn_7jXb6F5v5CjClQ?e=E7AAdw">Clic aqui</a>
 
+Consultar nuevo diagrama <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/personal/1220100361_alumnos_utng_edu_mx/Efzx0VrehLZEs_MA0zCVIooBnhoeIYQEH7xY1vWtJBqKtw?rtime=iNsP5pAk2kg">Clic aqui</a>
+
 <!-- Diagrama Esquematico -->
 #### Diagrama Esquematico
 ![Diagrama Esquematico](https://user-images.githubusercontent.com/67080087/163812379-2f791832-85e4-4c91-9b34-c9ae4303a586.jpg)
