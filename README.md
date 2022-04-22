@@ -216,6 +216,9 @@ Caso de prueba 0003
 Caso de prueba 0004
 ## ![CP_002](https://user-images.githubusercontent.com/97042086/163701330-4295f243-bba7-4340-a9b5-4054a0eb8f99.png)
 
+Caso de prueba 0005
+## ![CP_005](https://user-images.githubusercontent.com/97042086/164763553-c04719f5-9c71-4b70-adb3-5a9e61510ae2.png)
+
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
 
@@ -231,6 +234,8 @@ Caso de prueba 0003
 Caso de prueba 0004
 ## ![ECP-Login](https://user-images.githubusercontent.com/97042086/163772652-32da440c-7138-497d-a780-c41238a3835a.png)
 
+Caso de prueba 0005
+## ![ECP-WhatApp](https://user-images.githubusercontent.com/97042086/164764082-4b619e70-15c6-4caf-b624-03ee519e38fb.png)
 
 <!-- Iniciando -->
 ## Iniciando
