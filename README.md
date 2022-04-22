@@ -85,19 +85,19 @@ Puedes consultar Nuestra planeación desde el siguinte enlace <a href="https://u
 <!-- Requerimientos -->
 #### Requerimientos.
 
-RF001-Transmisión de video de vigilancia.
-  ° El usuario podrá visualizar transmisión de video vigilancia en tiempo real, así mismo obtener imágenes de posibles actividades sospechosas, las cuales podrán ser administradas (consultar y borrar) por el usuario.
+RF001-Transmisión de video de vigilancia.<br>
+  ° El usuario podrá visualizar transmisión de video vigilancia en tiempo real, así mismo obtener imágenes de posibles actividades sospechosas, las cuales podrán ser administradas (consultar y borrar) y la posibilidad de envarlas por whatsapp a la autoridad correspondiente.
 
-RF002-API dde WhatsApp.
+RF002-API dde WhatsApp.<br>
   ° Ayudar los usuarios tener comunicación via WhatsApp en caso de una emergencía 
 
-RF003-Sistema y mecanismo de alerta
+RF003-Sistema y mecanismo de alerta<br>
   °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activan y detecten movimiento. El sistema Permite al usuario enlazar a la aplicación para revisar la transmisión de la cámara de seguridad y posteriormente mandar la alerta al oficial de policía.
   
-RF004-Registar datos del usuario
+RF004-Registar datos del usuario<br>
   ° El usuario debera registrar una cuenta para que este pueda acceder a la aplicacion
   
-RF005-Actualizar datos del perfil del usuario
+RF005-Actualizar datos del perfil del usuario<br>
   ° El usuario tendra la opcion de actualizar los datos de su perfil
 
 <!-- Diagrama de Casos de Uso -->
@@ -246,7 +246,13 @@ Intalar un navegador web
 
 
 ## Guias
-Guias de Uso.
+<ol>
+	<li>Entrar a la aplicacion y registrar una cuenta</li>
+	<li>Contactar al equipo de <a href="#contacto">soporte</a> (este configurada los componentes nesesarios para el correcto funcionamento de la app)</li>
+	<li></li>
+	<li></li>
+	<li></li>
+</ol>
 
 ## contribucion
 
