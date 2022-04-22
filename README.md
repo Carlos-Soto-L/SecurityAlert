@@ -101,8 +101,8 @@ RF002-API dde WhatsApp.
 RF003-Sistema y mecanismo de alerta
   °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activan y detecten movimiento. El sistema Permite al usuario enlazar a la aplicación para revisar la transmisión de la cámara de seguridad y posteriormente mandar la alerta al oficial de policía.
   
-RNF001-Manejo de datos.
-  ° El sistema contara con una base de datos para poder ir guardando el usuario y los datos mas importantes para que se pueda hacer uso de los datos al momento.
+RF004-.
+  ° 
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
@@ -119,10 +119,9 @@ RF003
   ° Sistema y mecanismo de alerta
  ## ![Sistema](https://user-images.githubusercontent.com/67080087/163806970-b1956fea-517b-473b-b5c1-ed15c79f766c.png)
 
-RNF001
+RF004
   ° Acceso del usuario
- ## ![Caso de uso2 0](https://user-images.githubusercontent.com/97042086/163695749-590b940a-72ec-4537-813f-a67d2a0415e8.png)
-
+ ## ![CASO DE USO CORRECTO](https://user-images.githubusercontent.com/97042086/164741350-d0462411-2be3-40a6-9e06-49c33d615a30.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
@@ -160,7 +159,7 @@ El modelo fue para el esquema que se utilizo en la base de datos, la vista la ut
 
 <!-- Código Fuente -->
 #### Código Fuente.
-Código Fuente de la solución
+Se encutra en Github: https://github.com/Carlos-Soto-L/SecurityAlert/edit/main/README.md
 
 
 <!-- Pruebas proyecto -->
