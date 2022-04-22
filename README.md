@@ -61,7 +61,6 @@
 #### Descripción.
 Indicar la descripción del proyecto (tiempo, costo y calidad).
 
-Esta enfocado en crear un producto de seguridad, el cual este consistira en una camara para que así el cliente pueda observar desde su dispositivo movil permitiendo así mandar alertas de seguridad en caso de un asalto, teniendo comunicación via WhatsApp directamente con un oficial de policia.
 
 <!-- Objetivos -->
 #### Objetivos.
@@ -69,7 +68,6 @@ Sistema de seguridad que ayude a manetener la seguridad de sus asuarios de forma
 
 <!-- Organigrama -->
 #### Organigrama.
-Organigrama.
 
 ![Captura de pantalla 2022-04-18 015614](https://user-images.githubusercontent.com/97042086/163769173-27b99dd7-ef94-46e8-9818-5cbba763ddc1.png)
 
@@ -257,7 +255,6 @@ Guias de Uso.
 Licencia.
 
 ## Contacto
-Contacto.
 
 * ricoarvizujorge2002@gmail.com
 * carlosoto191@gmail.com
