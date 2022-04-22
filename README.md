@@ -159,7 +159,7 @@ El modelo fue para el esquema que se utilizo en la base de datos, la vista la ut
 
 <!-- Código Fuente -->
 #### Código Fuente.
-Se encutra en Github: https://github.com/Carlos-Soto-L/SecurityAlert/edit/main/README.md
+Se encutra en Github: https://github.com/Carlos-Soto-L/SecurityAlert
 
 
 <!-- Pruebas proyecto -->
