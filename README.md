@@ -260,8 +260,15 @@ Intalar un navegador web
 	<ol>
 		<h3>Actualizar datos</h3>
 			<li>Iniciar sección</li>
-			<li>Ir al apatado perfil en la parte superior</li>	
-			<li>Actualizar datos y dar en la opcion Actualizar</li>
+			<li>Ir al apatado <b>perfil</b> en la parte superior</li>	
+			<li>Modificar datos y dar en la opcion Actualizar</li>
+	</ol>
+	<ol>
+		<h3>Administrar evidencia</h3>
+			<li>Iniciar sección</li>
+			<li>Ir al apatado <b>evidencia</b> en la parte inferior</li>	
+			<li>Seleccionar la evidencia y dar en la opcion <b>ver evidencia</b></li>
+			<li>Si se quiere borrar la evidencia. seleccionar la evidencia y dar en la opcion <b>Borrar</b></li>
 	</ol>
 
 </ol>
