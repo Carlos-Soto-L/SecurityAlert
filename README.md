@@ -144,6 +144,7 @@ Este sera el modelo que se generar para gestionar los datos de manera mas comple
 
 <!-- Diagrama de Clases -->
 #### Diagrama de Clases.
+![diagrama de clases](https://user-images.githubusercontent.com/67080087/164775642-b15d44b1-b036-4e8a-a56b-a53c680ee229.png)
 
 
 <!-- Diagrama de Componentes -->
