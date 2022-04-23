@@ -109,6 +109,9 @@ RF004-Registar datos del usuario<br>
 RF005-Actualizar datos del perfil del usuario<br>
   ° El usuario tendra la opcion de actualizar los datos de su perfil
 
+RF006-Monitoreo de temperatura y humedad<br>
+  ° El usuario podra visualizar datos en tiempo real de la temperatura y humedad (por medio de graficas) de su hogar, gracias a esos datos se podra accionar automaticamente ventiladores dentro de la casa para asi regular la temperatura. 
+
 RF009-Detector de incendios<br>
   ° Se buscara que el usuario tenga un detector de incendios en tiempo real, esta ira conectado a una alarma. 
 
