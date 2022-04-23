@@ -135,9 +135,14 @@ RF004
   ° Registar datos del usuario
  ## ![CASO DE USO CORRECTO](https://user-images.githubusercontent.com/97042086/164744155-b0394dd4-47c1-4ff8-be1c-b08da75b05ee.png)
 
-RF004
+RF005
   ° Actualizar datos de perfil
  ## ![CASO DE USO CORRECTO_2](https://user-images.githubusercontent.com/97042086/164744174-52240cd4-2c6c-4cde-9214-2502df686313.png)
+
+RF006
+  ° Monitoreo de temperatura y humedad
+  
+  ![DiagramaCU006_RF006](https://user-images.githubusercontent.com/67080087/164874767-fb3162cc-4005-422c-961d-53d5049f77d1.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
