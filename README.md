@@ -113,7 +113,7 @@ RF006-Monitoreo de temperatura y humedad<br>
   ° El usuario podra visualizar datos en tiempo real de la temperatura y humedad (por medio de graficas) de su hogar, gracias a esos datos se podra accionar automaticamente ventiladores dentro de la casa para asi regular la temperatura. 
 
 RF009-Detector de incendios<br>
-  ° Se buscara que el usuario tenga un detector de incendios en tiempo real, esta ira conectado a una alarma. 
+  ° Se buscara que el usuario tenga un detector de incendios en tiempo real y en caso de que este sobrepase el limite establecido se activara una alarma de alerta y asu vez recibirá una alerta mediante la herramienta Telegram. 
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
@@ -142,7 +142,12 @@ RF005
 RF006
   ° Monitoreo de temperatura y humedad
   
-  ![DiagramaCU006_RF006](https://user-images.githubusercontent.com/67080087/164874767-fb3162cc-4005-422c-961d-53d5049f77d1.png)
+  ## ![DiagramaCU006_RF006](https://user-images.githubusercontent.com/67080087/164874767-fb3162cc-4005-422c-961d-53d5049f77d1.png)
+
+RF009
+  ° Detector de incendios
+  
+  ##![CASO DE USO 3 ](https://user-images.githubusercontent.com/97042086/164878955-eb014d9f-4057-42b6-846e-7e74421d737d.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
