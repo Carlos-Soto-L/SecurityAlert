@@ -150,7 +150,7 @@ RF007
 RF009
   ° Detector de incendios
   
-  ##![CASO DE USO 3 ](https://user-images.githubusercontent.com/97042086/164878955-eb014d9f-4057-42b6-846e-7e74421d737d.png)
+  ## ![CASO DE USO 3 ](https://user-images.githubusercontent.com/97042086/164878955-eb014d9f-4057-42b6-846e-7e74421d737d.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
