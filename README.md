@@ -141,8 +141,11 @@ RF005
 
 RF006
   ° Monitoreo de temperatura y humedad
-  
   ## ![DiagramaCU006_RF006](https://user-images.githubusercontent.com/67080087/164874767-fb3162cc-4005-422c-961d-53d5049f77d1.png)
+  
+RF007
+  ° Chat de soporte
+  ## ![Chat de soporte](https://user-images.githubusercontent.com/99061666/164879296-010b5ab3-bb90-41a8-bd08-d89bb0be62df.png)
 
 RF009
   ° Detector de incendios
