@@ -153,6 +153,11 @@ RF007
   ° Chat de soporte
   ## ![Chat de soporte](https://user-images.githubusercontent.com/99061666/164879296-010b5ab3-bb90-41a8-bd08-d89bb0be62df.png)
 
+RF008
+  ° Control de Iluminación 
+  ## ![Iluminacion](https://user-images.githubusercontent.com/97042410/164953486-c2bbbc8e-6dfb-4261-a4fd-172768728140.jpeg)
+  
+  
 RF009
   ° Detector de incendios
   
