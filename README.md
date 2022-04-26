@@ -134,8 +134,7 @@ RF002
 
 RF003
   ° Sistema de alerta
- ## ![Caso de uso 1](https://user-images.githubusercontent.com/97042410/164762041-8f66d137-e29d-4264-b6c0-3f1add1d63bc.jpeg)
-
+ ## ![Sistema  de alerta](https://user-images.githubusercontent.com/97042410/165225114-8097c3ab-c163-46b1-bb78-0dbbe582d85e.jpeg)
 
 RF004
   ° Registar datos del usuario
