@@ -130,7 +130,7 @@ RF001
 
 RF002
   ° Llamada de auxilio
- ## ![Llamada3](https://user-images.githubusercontent.com/99061666/164766164-42a20684-dd36-472d-b3e7-8b665fafcff1.png)
+ ## ![Llamada](https://user-images.githubusercontent.com/99061666/165216513-08bf95be-42d1-46b2-9f69-89f24260205a.png)
 
 RF003
   ° Sistema de alerta
