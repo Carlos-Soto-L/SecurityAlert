@@ -61,17 +61,14 @@
 #### Descripción.
 Consiste en una aplicación web, cuya función principal es alertar a un policía cuando los mecanismos o sistemas de seguridad de algún establecimiento o casa habitación sean corrompidos. El sistema será capaz de enviar una alerta con toda la información necesaria para la oportuna intervención de los agentes de policía mediante la implementación de un api de WhatsApp, así como alertar al usuario ante un posible ataque a su hogar, usando un Bot, desarrollado para la herramienta de Telegram 
 
- 
-
 Para evitar falsas alarmas el sistema contará con una cámara de seguridad que estará grabando 24/7, así como una serie de sensores para obtener datos precisos y en tiempo real.  
 
-
-El costo de producción será de aproximadamente $1100, los gastos podrían variar dependiendo el precio y el lugar donde se adquieran los elementos de Domótica a usar.
+El costo de producción será de aproximadamente $1100, los gastos podrían variar dependiendo el precio y el lugar donde se adquieran los elementos de Domótica a usar, obteniendo una ganancia aproximada del 50% por cada sistema instalado. 
 
 
 <!-- Objetivos -->
 #### Objetivos.
-Sistema de seguridad que ayude a manetener la seguridad de sus asuarios de forma simple y eficaz.
+Sistema de seguridad que ayude a manetener la seguridad de sus usuarios de forma simple y eficaz.
 
 <!-- Organigrama -->
 #### Organigrama.
