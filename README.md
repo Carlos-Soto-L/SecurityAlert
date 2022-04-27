@@ -285,7 +285,7 @@ Caso de prueba 0003
 ## ![CP_003](https://user-images.githubusercontent.com/97042086/163701589-630b4f00-81cd-4b14-b547-44cbb3542380.png)
 
 Caso de prueba 0004
-## ![CP_002](https://user-images.githubusercontent.com/97042086/163701330-4295f243-bba7-4340-a9b5-4054a0eb8f99.png)
+## ![CP_002](https://user-images.githubusercontent.com/97042086/165494778-67021a6c-68c1-4bed-bd8a-39202174204c.png)
 
 Caso de prueba 0005
 ## ![CP_005](https://user-images.githubusercontent.com/97042086/164763553-c04719f5-9c71-4b70-adb3-5a9e61510ae2.png)
