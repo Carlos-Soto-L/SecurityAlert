@@ -282,7 +282,7 @@ Caso de pruba 0002
 ## ![CP_004](https://user-images.githubusercontent.com/97042086/163701762-d0ffa4ee-db24-4e59-a417-dd75ea4ccdec.png)
 
 Caso de prueba 0003
-## ![CP_003](https://user-images.githubusercontent.com/97042086/163701589-630b4f00-81cd-4b14-b547-44cbb3542380.png)
+## ![Caso](https://user-images.githubusercontent.com/99061666/165495368-fa323869-ab34-471a-9085-3a6d87223037.PNG)
 
 Caso de prueba 0004
 ## ![CP_002](https://user-images.githubusercontent.com/97042086/165494778-67021a6c-68c1-4bed-bd8a-39202174204c.png)
