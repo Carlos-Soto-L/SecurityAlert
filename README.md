@@ -98,7 +98,7 @@ RF002-Llamada de auxilio.<br>
   ° A travez de la api de Whatsapp, será posible el envio de datos relacionados a la direccion del usuario para el llamado de auxilio y evidencia de la situación de peligro.
 
 RF003-Sistema de alerta<br>
-  °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activan y detecten movimiento.
+  °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activen y detecten movimiento.
   
 RF004-Registar datos del usuario<br>
   ° El usuario debera registrar una cuenta para que este pueda acceder a la aplicacion
