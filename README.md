@@ -114,7 +114,7 @@ Consultar diagrama <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/pe
   </tr>
   <tr>
     <td>
-	A travez de la api de Whatsapp, será posible el envio de datos relacionados a la direccion del usuario para el llamado de auxilio y evidencia de la situación de peligro.    
+	Se enviara datos del usuario y evidencia de la posible situación de peligro.
     </td>
   </tr>
 </table>
