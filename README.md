@@ -289,7 +289,8 @@ Caso de prueba 0004
 ## ![CP_002](https://user-images.githubusercontent.com/97042086/165494778-67021a6c-68c1-4bed-bd8a-39202174204c.png)
 
 Caso de prueba 0005
-## ![CP_005](https://user-images.githubusercontent.com/97042086/164763553-c04719f5-9c71-4b70-adb3-5a9e61510ae2.png)
+## ![Captura5](https://user-images.githubusercontent.com/99061666/165500303-b33e7c3d-dad6-4b90-b03f-985b52049805.PNG)
+
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
@@ -307,7 +308,8 @@ Caso de prueba 0004
 ## ![ECP-Login](https://user-images.githubusercontent.com/97042086/165496268-d49c968e-faa6-4faf-8503-608118600127.png)
 
 Caso de prueba 0005
-## ![ECP-WhatApp](https://user-images.githubusercontent.com/97042086/164764082-4b619e70-15c6-4caf-b624-03ee519e38fb.png)
+## ![Mensaje](https://user-images.githubusercontent.com/99061666/165500438-ca2b73bb-1d67-42f6-8db1-205a61496f0d.jpeg)
+
 
 <!-- Iniciando -->
 ## Iniciando
