@@ -303,7 +303,7 @@ Caso de prueba 0003
 ## ![ECP-Actualizar datos](https://user-images.githubusercontent.com/97042086/163772674-6daa3e32-de9b-454d-ba97-ea915afb3215.jpeg)
 
 Caso de prueba 0004
-## ![ECP-Login](https://user-images.githubusercontent.com/97042086/163772652-32da440c-7138-497d-a780-c41238a3835a.png)
+## ![ECP-Login](https://user-images.githubusercontent.com/97042086/165496268-d49c968e-faa6-4faf-8503-608118600127.png)
 
 Caso de prueba 0005
 ## ![ECP-WhatApp](https://user-images.githubusercontent.com/97042086/164764082-4b619e70-15c6-4caf-b624-03ee519e38fb.png)
