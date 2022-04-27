@@ -275,7 +275,8 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 <!-- Casos de prueba -->
 #### Casos de prueba.
 Caso de prueba 0001
-## ![Caso de prueba](https://user-images.githubusercontent.com/97042410/165493780-df39952f-9caf-421e-8f6c-0b4cb183a1d0.png)
+## ![Caso de prueba 1](https://user-images.githubusercontent.com/97042410/165497214-ad1987ed-588b-4f4d-a5f0-82cb8911f225.jpeg)
+
 
 
 Caso de pruba 0002
