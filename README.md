@@ -196,9 +196,10 @@ RF005
 
 <!-- Modelo Relacional -->
 #### Modelo No Relacional.
-Este sera el modelo que se generar para gestionar los datos de manera mas completa y poder obtener manipular la coleccion de manarea mas rapida.
+Se utiliza el siguiente esquema para manipular los datos del usuario en esta aplicacion.
 
-![Base de datos](https://user-images.githubusercontent.com/97042086/164764207-adbb488b-0080-4509-9c63-68b4a4868bd1.png)
+![Base de datos](https://user-images.githubusercontent.com/97042086/165451301-d5e90db2-9e31-4531-9c30-6094b20e1033.png)
+
 
 <!-- Diagrama de Clases -->
 
