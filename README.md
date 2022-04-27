@@ -275,9 +275,7 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 <!-- Casos de prueba -->
 #### Casos de prueba.
 Caso de prueba 0001
-## ![Caso de prueba 1](https://user-images.githubusercontent.com/97042410/165497214-ad1987ed-588b-4f4d-a5f0-82cb8911f225.jpeg)
-
-
+## ![Caso de prueba](https://user-images.githubusercontent.com/97042410/165500882-be9a3b53-feae-4c55-8a52-d865b3261713.png)
 
 Caso de pruba 0002
 ## ![CP_004](https://user-images.githubusercontent.com/97042086/163701762-d0ffa4ee-db24-4e59-a417-dd75ea4ccdec.png)
@@ -296,7 +294,7 @@ Caso de prueba 0005
 #### Ejecución.
 
 Caso de prueba 0001
-## ![ECP-Registro](https://user-images.githubusercontent.com/97042086/163772631-15f5cd02-1ee5-489e-8973-1cfec87a40af.png)
+## ![Caso de prueba 1](https://user-images.githubusercontent.com/97042410/165500983-30f8adca-848e-417a-bf50-4e1da9c64798.jpeg)
 
 Caso de pruba 0002
 ## ![ECP-Salir](https://user-images.githubusercontent.com/97042086/163772694-1bbe4b74-d09f-44dd-ba27-a8ae45e18abd.jpeg)
