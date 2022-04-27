@@ -89,7 +89,7 @@ Consultar diagrama <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/pe
 
 <!-- Diagrama Esquematico -->
 #### Diagrama Esquematico
-1.Circuito_Sistema de alerta
+1.Circuito_Sistema de alerta<br>
 En el siguiente diagrama se muestran los componentes usados en la elaboración del sistema de alerta, especificado en el requirimiento 003
 ![Diagrama Esquematico](https://user-images.githubusercontent.com/67080087/163812379-2f791832-85e4-4c91-9b34-c9ae4303a586.jpg)
 
