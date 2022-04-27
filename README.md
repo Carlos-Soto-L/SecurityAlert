@@ -108,6 +108,7 @@ En el siguiente diagrama se muestran los componentes usados en la elaboración d
   </tr>
 </table>
 
+<div align="center">
 <table>
   <tr>
     <th>
@@ -120,6 +121,7 @@ En el siguiente diagrama se muestran los componentes usados en la elaboración d
     </td>
   </tr>
 </table>
+	</div>
 
 <table>
   <tr>
@@ -202,10 +204,10 @@ Se utiliza el siguiente esquema para manipular los datos del usuario en esta apl
 
 
 <!-- Diagrama de Clases -->
-
-<!-- Diagrama de Clases -->
 #### Diagrama de Clases.
-![diagrama de clases](https://user-images.githubusercontent.com/67080087/164775642-b15d44b1-b036-4e8a-a56b-a53c680ee229.png)
+
+![Clase](https://user-images.githubusercontent.com/67080087/165452639-ab54437f-a363-4f74-a5b8-af77765c867f.png)
+
 
 
 <!-- Diagrama de Componentes -->
