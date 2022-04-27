@@ -97,32 +97,72 @@ Consultar diagrama <a href="https://utnorteguanajuato-my.sharepoint.com/:x:/g/pe
 <!-- Requerimientos -->
 #### Requerimientos.
 
-RF001-Transmisión de video de vigilancia.<br>
-  ° El usuario podrá visualizar transmisión de video vigilancia en tiempo real, así mismo obtener imágenes de posibles actividades sospechosas, las cuales podrán ser administradas (consultar y borrar) y la posibilidad de envarlas por whatsapp a la autoridad correspondiente.
+<table>
+  <tr>
+    <th>RF001-Transmisión de video de vigilancia</th>
+  </tr>
+  <tr>
+    <td>El usuario podrá visualizar transmisión de video vigilancia en tiempo real, así mismo obtener imágenes de posibles actividades sospechosas, las cuales podrán ser administradas (consultar y borrar) y la posibilidad de envarlas por whatsapp a la autoridad correspondiente.</td>
+  </tr>
+</table>
 
-RF002-Llamada de auxilio.<br>
-  ° A travez de la api de Whatsapp, será posible el envio de datos relacionados a la direccion del usuario para el llamado de auxilio y evidencia de la situación de peligro.
+<table>
+  <tr>
+    <th>
+    RF002-Llamada de auxilio
+   </th>
+  </tr>
+  <tr>
+    <td>
+	A travez de la api de Whatsapp, será posible el envio de datos relacionados a la direccion del usuario para el llamado de auxilio y evidencia de la situación de peligro.    
+    </td>
+  </tr>
+</table>
 
-RF003-Sistema de alerta<br>
-  °El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activen y detecten movimiento.
-  
-RF004-Registar datos del usuario<br>
-  ° El usuario debera registrar una cuenta para que este pueda acceder a la aplicacion
-  
-RF005-Actualizar datos del perfil del usuario<br>
-  ° El usuario tendra la opcion de actualizar los datos de su perfil
+<table>
+  <tr>
+    <th>
+RF003-Sistema de alerta
+   </th>
+  </tr>
+  <tr>
+    <td>
+   El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activen y detecten movimiento.
+    </td>
+  </tr>
+</table>
 
-RF006-Monitoreo de temperatura y humedad<br>
-  ° El usuario podra visualizar datos en tiempo real de la temperatura y humedad (por medio de graficas) de su hogar, gracias a esos datos se podra accionar automaticamente ventiladores dentro de la casa para asi regular la temperatura. 
 
-RF007-Chat de soporte<br>
-  º El usuario podra enviar mensaje al soporte técnico, en caso de algun problema con el producto
-  
-RF008-Control de Iluminación<br>
-  º El usuario será capaz de controlar el sistema de ilimunación de su hogar o establecimiento (encender/apagar), mediante una applicación movil. 
-    
-RF009-Detector de incendios<br>
-  ° Se buscara que el usuario tenga un detector de incendios en tiempo real y en caso de que este sobrepase el limite establecido se activara una alarma de alerta y asu vez recibirá una alerta mediante la herramienta Telegram. 
+<div align="center">
+<table >
+  <tr>
+    <th>
+RF004-Registar datos del usuario
+   </th>
+  </tr>
+  <tr>
+    <td>
+El usuario debera registrar una cuenta para que este pueda acceder a la aplicacion.
+    </td>
+  </tr>
+</table>
+</div>
+
+
+<div align="center">
+<table>
+  <tr>
+    <th>
+RF005-Actualizar datos del perfil del usuario
+   </th>
+  </tr>
+  <tr>
+    <td>
+   El usuario tendra la opcion de actualizar los datos de su perfil
+    </td>
+  </tr>
+</table>
+	</div>
 
 <!-- Diagrama de Casos de Uso -->
 #### Diagrama Casos de Uso.
@@ -147,23 +187,7 @@ RF005
   ° Actualizar datos de perfil
  ## ![CASO DE USO CORRECTO_2](https://user-images.githubusercontent.com/97042086/164744174-52240cd4-2c6c-4cde-9214-2502df686313.png)
 
-RF006
-  ° Monitoreo de temperatura y humedad
-  ## ![DiagramaCU006_RF006](https://user-images.githubusercontent.com/67080087/164874767-fb3162cc-4005-422c-961d-53d5049f77d1.png)
-  
-RF007
-  ° Chat de soporte
-  ## ![Chat de soporte](https://user-images.githubusercontent.com/99061666/164879296-010b5ab3-bb90-41a8-bd08-d89bb0be62df.png)
 
-RF008
-  ° Control de Iluminación 
-  ## ![Iluminacion](https://user-images.githubusercontent.com/97042410/164953486-c2bbbc8e-6dfb-4261-a4fd-172768728140.jpeg)
-  
-  
-RF009
-  ° Detector de incendios
-  
-  ## ![CASO DE USO 3 ](https://user-images.githubusercontent.com/97042086/164878955-eb014d9f-4057-42b6-846e-7e74421d737d.png)
 
 <!-- Diseño del proyecto -->
 ## Diseño de la Solución.
