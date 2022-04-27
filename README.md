@@ -129,7 +129,7 @@ RF003-Sistema de alerta
   </tr>
   <tr>
     <td>
-   El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento o sensores PIR se activen y detecten movimiento.
+   El usuario recibirá una alerta mediante la herramienta Telegram, cuando los sensores de movimiento detecten un posible intruso.
     </td>
   </tr>
 </table>
