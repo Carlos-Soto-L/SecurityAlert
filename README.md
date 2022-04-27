@@ -275,44 +275,63 @@ En ésta sección se describe  los artefactos generados en base a la solución.
 
 <!-- Casos de prueba -->
 #### Casos de prueba.
-Caso de prueba 0001
+Caso de prueba CP_Registro_0001
 ## ![Caso de prueba](https://user-images.githubusercontent.com/97042410/165500882-be9a3b53-feae-4c55-8a52-d865b3261713.png)
 
-Caso de pruba 0002
-## ![CP_004](https://user-images.githubusercontent.com/97042086/163701762-d0ffa4ee-db24-4e59-a417-dd75ea4ccdec.png)
+Caso de pruba CP_Cierre de sesion_0002
+## ![image](https://user-images.githubusercontent.com/67080087/165504254-848f41b4-127c-4d06-b046-ed5e60b97b36.png)
 
-Caso de prueba 0003
+
+Caso de prueba CP_Actualizacion_0003
 ## ![Caso](https://user-images.githubusercontent.com/99061666/165495368-fa323869-ab34-471a-9085-3a6d87223037.PNG)
 
-Caso de prueba 0004
+Caso de prueba CP_Login_0004
 ## ![CP_002](https://user-images.githubusercontent.com/97042086/165494778-67021a6c-68c1-4bed-bd8a-39202174204c.png)
 
-Caso de prueba 0005
+Caso de prueba CP_Enviar alerta por whatsapp_0005
 ## ![Captura5](https://user-images.githubusercontent.com/99061666/165500303-b33e7c3d-dad6-4b90-b03f-985b52049805.PNG)
+
+Caso de prueba CP_Eliminar evidencia_0006
+## ![image](https://user-images.githubusercontent.com/67080087/165510415-30de750b-0010-4578-90ea-f3b99db25f2a.png)
+
+Caso de prueba CP_Consulta evidencia_0007
+## ![image](https://user-images.githubusercontent.com/67080087/165510239-0ed61a57-18a6-491d-beaa-04fc4673d80e.png)
+
+
 
 
 <!-- Ejecución Casos de prueba -->
 #### Ejecución.
 
-Caso de prueba 0001
+CP_Registro_0001
 ## ![Caso de prueba 1](https://user-images.githubusercontent.com/97042410/165500983-30f8adca-848e-417a-bf50-4e1da9c64798.jpeg)
 
-Caso de pruba 0002
-## ![ECP-Salir](https://user-images.githubusercontent.com/97042086/163772694-1bbe4b74-d09f-44dd-ba27-a8ae45e18abd.jpeg)
+CP_Cierre de sesion_0002
+## ![image](https://user-images.githubusercontent.com/67080087/165504140-3b3fb42d-edd7-4b8d-8b40-02cde8b53e93.png)
 
-Caso de prueba 0003
+
+CP_Actualizacion_0003
 ## ![ECP-Actualizar datos](https://user-images.githubusercontent.com/97042086/163772674-6daa3e32-de9b-454d-ba97-ea915afb3215.jpeg)
 
-Caso de prueba 0004
+CP_Login_0004
 ## ![ECP-Login](https://user-images.githubusercontent.com/97042086/165496268-d49c968e-faa6-4faf-8503-608118600127.png)
 
-Caso de prueba 0005
+CP_Enviar alerta por whatsapp_0005
 ## ![Mensaje](https://user-images.githubusercontent.com/99061666/165500438-ca2b73bb-1d67-42f6-8db1-205a61496f0d.jpeg)
+
+CP_Eliminar evidencia_0006
+Antes del borrado:
+![image](https://user-images.githubusercontent.com/67080087/165508787-ce3b6785-8ae2-4c93-9c0e-390de38e09c3.png)
+
+Despues del borrado<br>
+![image](https://user-images.githubusercontent.com/67080087/165508847-b092f6c8-0fec-4055-b31a-1b7675361c84.png)<br>
+
+CP_Consultar evidencia_0007
+![image](https://user-images.githubusercontent.com/67080087/165510503-2ddc6372-3fd7-413c-b6e3-7156c1885663.png)
 
 
 <!-- Iniciando -->
 ## Iniciando
-Iniciando.
 
 <!-- Requisitos -->
 ### Requisitos
@@ -321,7 +340,7 @@ Iniciando.
 
 <!-- Instalación -->
 ### Instalacion
-Intalar un navegador web
+Instalar un navegador web.
 
 
 ## Guias
@@ -340,6 +359,13 @@ Intalar un navegador web
 			<li>Ir al apatado <b>evidencia</b> en la parte inferior</li>	
 			<li>Seleccionar la evidencia y dar en la opcion <b>ver evidencia</b></li>
 			<li>Si se quiere borrar la evidencia. seleccionar la evidencia y dar en la opcion <b>Borrar</b></li>
+			<li>Si se quiere enviar la evidencia por whatsapp. seleccionar la evidencia y dar en la opcion <b>Enviar</b></li>
+	</ol>
+		<ol>
+		<h3>Envio de alerta</h3>
+			<li>Iniciar sección</li>
+			<li>Dar clic en el boton <b>Alerta</b></li>
+			<li>Acceder a la plataforma whatsapp y enviar el mensaje predefindo</li>
 	</ol>
 
 </ol>
