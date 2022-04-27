@@ -142,7 +142,7 @@ RF004-Registar datos del usuario
   </tr>
   <tr>
     <td>
-El usuario debera registrar una cuenta para que este pueda acceder a la aplicacion.
+El ususario debera registrar una cuenta para tener acceso a la aplicación 
     </td>
   </tr>
 </table>
@@ -153,12 +153,12 @@ El usuario debera registrar una cuenta para que este pueda acceder a la aplicaci
 <table>
   <tr>
     <th>
-RF005-Actualizar datos del perfil del usuario
+RF005-Actualizar datos de perfil
    </th>
   </tr>
   <tr>
     <td>
-   El usuario tendra la opcion de actualizar los datos de su perfil
+  El usuario tendra la opcion de actualizar los datos de su perfil
     </td>
   </tr>
 </table>
