@@ -68,7 +68,14 @@ El costo de producción será de aproximadamente $1100, los gastos podrían vari
 
 <!-- Objetivos -->
 #### Objetivos.
-Sistema de seguridad que ayude a manetener la seguridad de sus usuarios de forma simple y eficaz.
+<ul>
+	<li>
+Ayudar a manetener la seguridad de los bienes inmubles del usuario, de forma simple y eficaz.
+	</li>
+	<li>
+Lograr que el usuario se sienta en todo momento seguro, con la implementacion del sistema en su hogar, establecimiento, etc.
+	</li>
+</ul>
 
 <!-- Organigrama -->
 #### Organigrama.
